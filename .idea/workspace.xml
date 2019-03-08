@@ -244,7 +244,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552012320311" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552012588077" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/sbmp-multidb-druid" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -336,16 +336,15 @@
       <workItem from="1551942741805" duration="717000" />
       <workItem from="1551943629475" duration="700000" />
       <workItem from="1551944360175" duration="3880000" />
-      <workItem from="1551948289321" duration="6108000" />
+      <workItem from="1551948289321" duration="6275000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12265000" />
+    <option name="totallyTimeSpent" value="12432000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="0" width="1031" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23069002" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -358,7 +357,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.041284405" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.22210066" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.22210066" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
