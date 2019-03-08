@@ -17,6 +17,7 @@
 
     <packaging>pom</packaging>
     <modules>
+        <module>sbm-annotations</module>
         <module>sbmp-multidb</module>
         <module>sbmp-multidb-druid</module>
     </modules>

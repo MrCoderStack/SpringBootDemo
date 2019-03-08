@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-//@MapperScan("com.mrcoder.sbmpmultidbdruid.mapper")
+@MapperScan("com.mrcoder.sbmpmultidbdruid.mapper")
 public class SbmpMultidbDruidApplication {
 
     public static void main(String[] args) {

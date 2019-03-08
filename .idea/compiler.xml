@@ -6,16 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="sbm-annotations" />
         <module name="sbmp-multidb" />
         <module name="sbmp-multidb-druid" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="sbm-simple" target="1.8" />
       <module name="springboot-mp-multidb" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="sbm-annotations" options="-parameters" />
+      <module name="sbm-simple" options="-parameters" />
       <module name="sbmp-multidb" options="-parameters" />
       <module name="sbmp-multidb-druid" options="-parameters" />
       <module name="springboot-mp-multidb" options="" />
