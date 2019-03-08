@@ -5,16 +5,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-mp-multidb/pom.xml" />
-        <option value="$PROJECT_DIR$/sbmp-multidb/pom.xml" />
-        <option value="$PROJECT_DIR$/sbmp-multidb-druid/pom.xml" />
-        <option value="$PROJECT_DIR$/sbm-annotations/pom.xml" />
       </list>
-    </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/springboot-mp-multidb/pom.xml" />
-      </set>
     </option>
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">

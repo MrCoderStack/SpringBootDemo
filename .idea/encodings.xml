@@ -3,7 +3,6 @@
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sbm-annotations" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sbm-simple" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sbmp-multidb" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sbmp-multidb-druid" charset="UTF-8" />
   </component>
