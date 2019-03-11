@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="sbm-annotations" />
+        <module name="sbm-generator" />
         <module name="sbmp-multidb" />
         <module name="sbmp-multidb-druid" />
       </profile>
@@ -15,6 +16,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="sbm-annotations" options="-parameters" />
+      <module name="sbm-generator" options="-parameters" />
       <module name="sbmp-multidb" options="-parameters" />
       <module name="sbmp-multidb-druid" options="-parameters" />
     </option>
