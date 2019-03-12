@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb3ad222-a93b-4a57-836c-e736a1479f48" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbm-annotations/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sbm-annotations/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbm-generator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sbm-generator/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbm-generator/src/main/java/com/mrcoder/sbmgenerator/controller/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sbm-generator/src/main/java/com/mrcoder/sbmgenerator/controller/PersonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbm-generator/src/main/java/com/mrcoder/sbmgenerator/service/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sbm-generator/src/main/java/com/mrcoder/sbmgenerator/service/PersonService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbm-generator/src/main/java/com/mrcoder/sbmgenerator/service/impl/PersonServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/sbm-generator/src/main/java/com/mrcoder/sbmgenerator/service/impl/PersonServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbmp-multidb-druid/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sbmp-multidb-druid/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbmp-multidb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sbmp-multidb/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/sbmp-multidb/target/" />
@@ -39,52 +26,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sb-helloword/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sb-jpa/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-34">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sbm-annotations/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sbm-generator/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sbmp-multidb/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="387">
+                <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -117,7 +66,6 @@
         <option value="$PROJECT_DIR$/sbm-generator/src/main/java/com/mrcoder/sbmgenerator/controller/PersonController.java" />
         <option value="$PROJECT_DIR$/sbmp-multidb/pom.xml" />
         <option value="$PROJECT_DIR$/sbmp-multidb-druid/pom.xml" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/sb-helloword/src/main/java/com/mrcoder/sbhelloword/controller/helloworld.java" />
         <option value="$PROJECT_DIR$/sb-jpa/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/sb-jpa/src/main/java/com/mrcoder/sbjpa/entity/Person.java" />
@@ -126,6 +74,7 @@
         <option value="$PROJECT_DIR$/sb-helloword/pom.xml" />
         <option value="$PROJECT_DIR$/sb-jpa/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -160,10 +109,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="22" />
-    <option name="y" value="53" />
-    <option name="width" value="1563" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="32" />
+    <option name="y" value="16" />
+    <option name="width" value="1763" />
     <option name="height" value="925" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -178,6 +127,11 @@
             <path>
               <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="sbmp-multidb-druid" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -194,7 +148,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552379741924" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552381320245" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.other" />
@@ -211,7 +165,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MysqlGenerator">
+  <component name="RunManager" selected="Spring Boot.SbmpMultidbDruidApplication">
     <configuration name="MysqlGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mrcoder.sbmpmultidb.generator.MysqlGenerator" />
       <module name="sbmp-multidb" />
@@ -284,18 +238,18 @@
       <option name="presentableId" value="Default" />
       <updated>1552293467455</updated>
       <workItem from="1552293468870" duration="10741000" />
-      <workItem from="1552361654080" duration="12033000" />
+      <workItem from="1552361654080" duration="13606000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22774000" />
+    <option name="totallyTimeSpent" value="24347000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="22" y="53" width="1563" height="925" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23619428" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.051705755" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -305,8 +259,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21365361" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.67579406" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21365361" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.08568329" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -319,11 +273,11 @@
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" />
-      <window_info anchor="right" id="Coverage" sideWeight="0.5016077" side_tool="true" visible="true" weight="0.24550898" />
+      <window_info anchor="right" id="Coverage" sideWeight="0.5005931" side_tool="true" visible="true" weight="0.05063966" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" sideWeight="0.49839228" visible="true" weight="0.24550898" />
+      <window_info anchor="right" id="Maven" order="3" sideWeight="0.49940687" visible="true" weight="0.05063966" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -345,16 +299,6 @@
             <element signature="e#179#180#0" expanded="true" />
             <element signature="e#213#214#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="476">
-            <caret line="52" selection-start-line="52" selection-end-line="52" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -539,13 +483,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sbmp-multidb-druid/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sbmp-multidb-druid/db/test库-user.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -564,13 +501,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="11" column="1" lean-forward="true" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbmp-multidb-druid/src/main/java/com/mrcoder/sbmpmultidbdruid/config/DataSourceSwitchAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" lean-forward="true" selection-end-line="35" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -599,13 +529,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="37" lean-forward="true" selection-end-line="92" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbmp-multidb-druid/src/main/java/com/mrcoder/sbmpmultidbdruid/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="37" lean-forward="true" selection-end-line="43" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -710,9 +633,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sbm-generator/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/sbmp-multidb/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -724,6 +644,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbmp-multidb-druid/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbmp-multidb-druid/src/main/java/com/mrcoder/sbmpmultidbdruid/config/DataSourceSwitchAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbmp-multidb-druid/src/main/java/com/mrcoder/sbmpmultidbdruid/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="37" lean-forward="true" selection-end-line="43" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbm-generator/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="387">
+            <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

@@ -43,23 +43,21 @@ Spring Boot 学习示例
 
 ## 子模块简写
 
+sb    =》 spring boot
+
 sbm   =》 spring boot mybatis
 
 sbmp  =》 spring boot mybatis plus
 
 
-## sbm-annotations
-注解方式操作mysql
+## 案例
 
-## sbm-generator
-mybatis-generator-maven-plugin自动生成代码(mapper.xml方式操作数据)
-由于分页比较简单，这边直接集成pagehelper-spring-boot-starter分页控件来使用，附带非分页方式
-
-## sbmp-multidb
-mybatis-plus-generator自动生成代码(mapper.xml方式操作数据)，dynamic-datasource-spring-boot-starter多库切换
-
-## sbmp-multidb-druid
-spring-boot-starter-aop，druid多库切换，注解方式操作数据
+- [sb-helloword](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-helloword)：IDEA创建spring boot项目
+- [sb-jpa](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-jpa)：jpa方式访问mysql
+- [sbm-annotations](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sbm-annotations)：注解方式访问mysql
+- [sbm-generator](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sbm-generator)：mapper.xml方式操作数据，mybatis-generator-maven-plugin自动生成代码，集成pagehelper-spring-boot-starter分页控件来使用，附带非分页方式
+- [sbmp-multidb](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sbmp-multidb)：mapper.xml方式访问mysql，mybatis-plus-generator自动生成代码，dynamic-datasource-spring-boot-starter多库切换
+- [sbmp-multidb-druid](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sbmp-multidb-druid)：注解方式访问mysql，spring-boot-starter-aop，druid多库切换
 
 
 
