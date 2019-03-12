@@ -5,7 +5,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/sbm-generator/pom.xml" />
+        <option value="$PROJECT_DIR$/sb-helloword/pom.xml" />
+        <option value="$PROJECT_DIR$/sb-jpa/pom.xml" />
       </list>
     </option>
   </component>

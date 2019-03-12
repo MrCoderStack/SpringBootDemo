@@ -17,6 +17,8 @@
 
     <packaging>pom</packaging>
     <modules>
+        <module>sb-helloword</module>
+        <module>sb-jpa</module>
         <module>sbm-generator</module>
         <module>sbm-annotations</module>
         <module>sbmp-multidb</module>

@@ -6,19 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="sb-helloword" />
+        <module name="sb-jpa" />
         <module name="sbm-annotations" />
         <module name="sbm-generator" />
         <module name="sbmp-multidb" />
         <module name="sbmp-multidb-druid" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="demo" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="demo" options="-parameters" />
+      <module name="sb-helloword" options="-parameters" />
+      <module name="sb-jpa" options="-parameters" />
       <module name="sbm-annotations" options="-parameters" />
       <module name="sbm-generator" options="-parameters" />
       <module name="sbmp-multidb" options="-parameters" />

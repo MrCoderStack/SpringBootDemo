@@ -7,4 +7,6 @@ import java.util.List;
 public interface PersonService {
     int addPerson(Person person);
     List<Person> findAllPerson(int pageNum, int pageSize);
+
+    List<Person> findAllPersonNoPage();
 }

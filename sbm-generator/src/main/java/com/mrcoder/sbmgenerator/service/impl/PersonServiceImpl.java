@@ -32,4 +32,10 @@ public class PersonServiceImpl implements PersonService {
         return personMapper.selectAllPerson();
     }
 
+
+    //无分页
+    @Override
+    public List<Person> findAllPersonNoPage() {
+        return personMapper.selectAllPerson();
+    }
 }

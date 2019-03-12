@@ -12,7 +12,6 @@
     </parent>
 
 
-
     <groupId>com.mrcoder</groupId>
     <artifactId>sbm-annotations</artifactId>
     <version>0.0.1</version>
@@ -24,10 +23,6 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-jdbc</artifactId>
-        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>

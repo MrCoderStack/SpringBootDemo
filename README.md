@@ -1,5 +1,17 @@
 # SpringBootDemo
 
+
+Spring Boot 学习示例
+=========================
+
+![Spring Boot 2.0](https://img.shields.io/badge/Spring%20Boot-2.0-brightgreen.svg)
+![Mysql 5.6](https://img.shields.io/badge/Mysql-5.6-blue.svg)
+![JDK 1.8](https://img.shields.io/badge/JDK-1.8-brightgreen.svg)
+![Maven](https://img.shields.io/badge/Maven-3.6.0-yellowgreen.svg)
+![license](https://img.shields.io/badge/license-MPL--2.0-blue.svg)
+
+
+
 ## 介绍
 收集记录学习spring的点点滴滴，通过每一个小demo，一步步进阶，逐步完善。
 
@@ -32,6 +44,7 @@
 ## 子模块简写
 
 sbm   =》 spring boot mybatis
+
 sbmp  =》 spring boot mybatis plus
 
 
@@ -39,13 +52,14 @@ sbmp  =》 spring boot mybatis plus
 注解方式操作mysql
 
 ## sbm-generator
-mybatis-generator-maven-plugin自动生成代码，pagehelper-spring-boot-starter分页控件
+mybatis-generator-maven-plugin自动生成代码(mapper.xml方式操作数据)
+由于分页比较简单，这边直接集成pagehelper-spring-boot-starter分页控件来使用，附带非分页方式
 
 ## sbmp-multidb
-mybatis-plus-generator自动生成代码，dynamic-datasource-spring-boot-starter多库切换
+mybatis-plus-generator自动生成代码(mapper.xml方式操作数据)，dynamic-datasource-spring-boot-starter多库切换
 
 ## sbmp-multidb-druid
-spring-boot-starter-aop，druid多库切换
+spring-boot-starter-aop，druid多库切换，注解方式操作数据
 
 
 
