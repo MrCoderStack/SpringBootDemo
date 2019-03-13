@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="sb-helloword" />
+        <module name="sb-jdbc" />
         <module name="sb-jpa" />
         <module name="sbm-annotations" />
         <module name="sbm-generator" />
@@ -18,6 +19,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="sb-helloword" options="-parameters" />
+      <module name="sb-jdbc" options="-parameters" />
       <module name="sb-jpa" options="-parameters" />
       <module name="sbm-annotations" options="-parameters" />
       <module name="sbm-generator" options="-parameters" />
