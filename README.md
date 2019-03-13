@@ -39,7 +39,7 @@ Spring Boot 学习示例
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 ```
-
+    
 ## 子模块简写
 
 sb    =》 spring boot
