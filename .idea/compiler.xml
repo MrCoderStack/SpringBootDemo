@@ -9,18 +9,26 @@
         <module name="sb-helloword" />
         <module name="sb-jdbc" />
         <module name="sb-jpa" />
+        <module name="sb-redis-annotations" />
+        <module name="sb-redis-template" />
         <module name="sbm-annotations" />
         <module name="sbm-generator" />
         <module name="sbmp-multidb" />
         <module name="sbmp-multidb-druid" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sb-redis" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="sb-helloword" options="-parameters" />
       <module name="sb-jdbc" options="-parameters" />
       <module name="sb-jpa" options="-parameters" />
+      <module name="sb-redis" options="-parameters" />
+      <module name="sb-redis-annotations" options="-parameters" />
+      <module name="sb-redis-template" options="-parameters" />
       <module name="sbm-annotations" options="-parameters" />
       <module name="sbm-generator" options="-parameters" />
       <module name="sbmp-multidb" options="-parameters" />

@@ -8,6 +8,8 @@
         <option value="$PROJECT_DIR$/sb-helloword/pom.xml" />
         <option value="$PROJECT_DIR$/sb-jpa/pom.xml" />
         <option value="$PROJECT_DIR$/sb-jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/sb-redis-annotations/pom.xml" />
+        <option value="$PROJECT_DIR$/sb-redis-template/pom.xml" />
       </list>
     </option>
   </component>

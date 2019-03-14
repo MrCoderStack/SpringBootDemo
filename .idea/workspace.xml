@@ -2,7 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb3ad222-a93b-4a57-836c-e736a1479f48" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/sb-redis-annotations/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb-redis-annotations/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb-redis-annotations/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb-redis-annotations/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb-redis-annotations/image/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb-redis-annotations/image/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb-redis-annotations/image/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb-redis-annotations/image/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb-redis-annotations/image/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb-redis-annotations/image/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb-redis-annotations/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb-redis-annotations/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb-redis-annotations/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb-redis-annotations/src/main/java/com/mrcoder/sbredisannotations/SbRedisAnnotationsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb-redis-annotations/src/main/java/com/mrcoder/sbredisannotations/controller/CacheController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb-redis-annotations/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb-redis-annotations/src/test/java/com/mrcoder/sbredisannotations/SbRedisAnnotationsApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb-redis-template/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb-redis-template/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb-redis-template/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb-redis-template/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb-redis-template/image/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb-redis-template/image/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb-redis-template/image/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb-redis-template/image/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb-redis-template/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb-redis-template/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb-redis-template/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb-redis-template/src/main/java/com/mrcoder/sbredistemplate/SbRedisTemplateApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb-redis-template/src/main/java/com/mrcoder/sbredistemplate/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb-redis-template/src/main/java/com/mrcoder/sbredistemplate/controller/CacheController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb-redis-template/src/main/java/com/mrcoder/sbredistemplate/entity/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb-redis-template/src/main/java/com/mrcoder/sbredistemplate/service/RedisService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb-redis-template/src/main/java/com/mrcoder/sbredistemplate/util/RedisKeyUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb-redis-template/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb-redis-template/src/test/java/com/mrcoder/sbredistemplate/SbRedisTemplateApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbm-annotations/image/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbm-annotations/image/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbm-generator/image/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbm-generator/image/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbm-generator/image/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbm-generator/image/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbm-generator/image/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbmp-multidb-druid/image/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbmp-multidb-druid/image/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbmp-multidb-druid/image/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbmp-multidb-druid/image/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbmp-multidb/image/16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-helloword/image/10.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/sbmp-multidb/target/" />
@@ -13,6 +65,9 @@
     <ignored path="$PROJECT_DIR$/sb-helloword/target/" />
     <ignored path="$PROJECT_DIR$/sb-jpa/target/" />
     <ignored path="$PROJECT_DIR$/sb-jdbc/target/" />
+    <ignored path="$PROJECT_DIR$/sb-redis/target/" />
+    <ignored path="$PROJECT_DIR$/sb-redis-annotations/target/" />
+    <ignored path="$PROJECT_DIR$/sb-redis-template/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,23 +82,82 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="187">
-                <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              </first_editor>
-              <second_editor />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sb-redis-template/src/main/java/com/mrcoder/sbredistemplate/config/RedisConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="121" column="17" selection-end-line="134" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/sb-redis-template/src/main/java/com/mrcoder/sbredistemplate/entity/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+            <state relative-caret-position="323">
+              <caret line="27" column="19" selection-end-line="43" />
+              <folding>
+                <element signature="e#476#477#0" expanded="true" />
+                <element signature="e#502#503#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sb-redis-template/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sb-redis-template/src/main/java/com/mrcoder/sbredistemplate/controller/CacheController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="61">
+              <caret line="53" column="66" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="66" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sb-redis-template/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sb-redis-template/src/main/java/com/mrcoder/sbredistemplate/service/RedisService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="337">
+              <caret line="112" column="8" selection-end-line="124" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2015#2016#0" expanded="true" />
+                <element signature="e#2072#2073#0" expanded="true" />
+                <element signature="e#2207#2208#0" expanded="true" />
+                <element signature="e#2256#2257#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sb-redis-template/src/main/java/com/mrcoder/sbredistemplate/util/RedisKeyUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="25" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -61,6 +175,11 @@
     <findStrings>
       <find>jdbc</find>
       <find>base</find>
+      <find>spring-boot-starter-data-redis</find>
+      <find>CacheManager</find>
+      <find>table</find>
+      <find>Table</find>
+      <find>cacheManager</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -93,6 +212,20 @@
         <option value="$PROJECT_DIR$/sb-jdbc/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/sb-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/sb-redis/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/sb-redis/src/main/java/com/mrcoder/sbredis/SbRedisApplication.java" />
+        <option value="$PROJECT_DIR$/sb-redis/src/main/java/com/mrcoder/sbredis/controller/CacheController.java" />
+        <option value="$PROJECT_DIR$/sb-redis-annotations/pom.xml" />
+        <option value="$PROJECT_DIR$/sb-redis-annotations/src/main/java/com/mrcoder/sbredisannotations/SbRedisAnnotationsApplication.java" />
+        <option value="$PROJECT_DIR$/sb-redis-annotations/src/main/java/com/mrcoder/sbredisannotations/controller/CacheController.java" />
+        <option value="$PROJECT_DIR$/sb-redis-annotations/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/sb-redis-template/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/sb-redis-template/src/main/java/com/mrcoder/sbredistemplate/util/RedisKeyUtil.java" />
+        <option value="$PROJECT_DIR$/sb-redis-template/src/main/java/com/mrcoder/sbredistemplate/entity/Person.java" />
+        <option value="$PROJECT_DIR$/sb-redis-template/src/main/java/com/mrcoder/sbredistemplate/config/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/sb-redis-template/src/main/java/com/mrcoder/sbredistemplate/service/RedisService.java" />
+        <option value="$PROJECT_DIR$/sb-redis-template/src/main/java/com/mrcoder/sbredistemplate/controller/CacheController.java" />
       </list>
     </option>
   </component>
@@ -116,21 +249,26 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="sb-helloword" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="sb-redis-template" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="sb-helloword" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="sb-redis-template" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sb-redis-template" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-4" />
-    <option name="y" value="13" />
-    <option name="width" value="1940" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="24" />
+    <option name="y" value="25" />
+    <option name="width" value="1428" />
     <option name="height" value="1011" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -139,6 +277,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,12 +286,103 @@
               <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="sb-redis-template" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="sb-redis-template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="sb-redis-template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="sb-redis-template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="sb-redis-template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sbredistemplate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="sb-redis-template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sbredistemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="sb-redis-template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sbredistemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="sb-redis-template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sbredistemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="sb-redis-template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sbredistemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="sb-redis-template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sbredistemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="sb-redis-template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -161,7 +392,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552449132462" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552555486433" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.other" />
@@ -178,7 +409,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SbJdbcApplication">
+  <component name="RunManager" selected="Spring Boot.SbRedisTemplateApplication">
     <configuration name="MysqlGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mrcoder.sbmpmultidb.generator.MysqlGenerator" />
       <module name="sbmp-multidb" />
@@ -209,6 +440,27 @@
     <configuration name="SbJpaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="sb-jpa" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.mrcoder.sbjpa.SbJpaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SbRedisAnnotationsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sb-redis-annotations" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mrcoder.sbredisannotations.SbRedisAnnotationsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SbRedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sb-redis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mrcoder.sbredis.SbRedisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SbRedisTemplateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sb-redis-template" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mrcoder.sbredistemplate.SbRedisTemplateApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -258,18 +510,19 @@
       <option name="presentableId" value="Default" />
       <updated>1552293467455</updated>
       <workItem from="1552293468870" duration="10741000" />
-      <workItem from="1552361654080" duration="21397000" />
+      <workItem from="1552361654080" duration="29373000" />
+      <workItem from="1552549428696" duration="5872000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32138000" />
+    <option name="totallyTimeSpent" value="45986000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="13" width="1940" height="1011" extended-state="1" />
+    <frame x="24" y="25" width="1428" height="1011" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19574468" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3516082" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -279,8 +532,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21365361" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.034207527" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.62322015" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.72748005" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -288,173 +541,28 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32963374" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.35689852" />
       <window_info anchor="bottom" id="Problems" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" />
-      <window_info anchor="right" id="Coverage" sideWeight="0.5005903" side_tool="true" visible="true" weight="0.050531916" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" sideWeight="0.49940968" visible="true" weight="0.050531916" />
+      <window_info anchor="right" id="Maven" order="3" sideWeight="0.49942988" visible="true" weight="0.20248538" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Coverage" order="10" sideWeight="0.5005701" side_tool="true" weight="0.16150081" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sbm-annotations/src/main/java/com/mrcoder/sbmannotations/dao/DemoDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbmp-multidb/db/test2库-multi_user.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbmp-multidb/db/test库-multi_user.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="31" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbmp-multidb/src/main/java/com/mrcoder/sbmpmultidb/generator/MysqlGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="94" column="40" selection-start-line="94" selection-start-column="40" selection-end-line="94" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbmp-multidb/src/main/java/com/mrcoder/sbmpmultidb/entity/MultiUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="24" selection-end-line="32" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbmp-multidb/src/main/java/com/mrcoder/sbmpmultidb/mapper/MultiUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbmp-multidb/src/main/java/com/mrcoder/sbmpmultidb/service/IMultiUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbmp-multidb/src/main/java/com/mrcoder/sbmpmultidb/service/impl/MultiUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbmp-multidb/src/main/java/com/mrcoder/sbmpmultidb/SbmpMultidbApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbmp-multidb/src/main/resources/mapper/sbmpmultidb/MultiUserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbmp-multidb/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbmp-multidb-druid/db/test库-user.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbmp-multidb-druid/db/test2库-orders.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbmp-multidb-druid/src/main/java/com/mrcoder/sbmpmultidbdruid/config/DataSourceSwitch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="1" lean-forward="true" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbmp-multidb-druid/src/main/java/com/mrcoder/sbmpmultidbdruid/config/DbContextHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="23" column="26" selection-end-line="26" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbmp-multidb-druid/src/main/java/com/mrcoder/sbmpmultidbdruid/config/DBTypeEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="1" lean-forward="true" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbmp-multidb-druid/src/main/java/com/mrcoder/sbmpmultidbdruid/config/DynamicDataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="1" lean-forward="true" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbmp-multidb-druid/src/main/java/com/mrcoder/sbmpmultidbdruid/config/MybatisPlusConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="37" lean-forward="true" selection-end-line="92" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbmp-multidb-druid/src/main/java/com/mrcoder/sbmpmultidbdruid/entity/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="35" column="7" lean-forward="true" selection-end-line="55" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbmp-multidb-druid/src/main/java/com/mrcoder/sbmpmultidbdruid/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="31" column="8" selection-end-line="42" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sbmp-multidb-druid/src/main/java/com/mrcoder/sbmpmultidbdruid/mapper/db1/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -566,60 +674,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sb-jdbc/src/main/java/com/mrcoder/sbjdbc/service/PersonRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sb-jpa/src/main/java/com/mrcoder/sbjpa/entity/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" selection-start-line="28" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-jdbc/src/main/java/com/mrcoder/sbjdbc/service/PersonRepository.java" />
     <entry file="file://$PROJECT_DIR$/sb-jpa/src/main/java/com/mrcoder/sbjpa/service/PersonRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sb-jpa/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sb-jdbc/src/main/java/com/mrcoder/sbjdbc/entity/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="29" column="5" lean-forward="true" selection-end-line="39" />
-          <folding>
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#630#631#0" expanded="true" />
-            <element signature="e#657#658#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -681,13 +742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sb-jpa/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="5" selection-start-line="5" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sb-jdbc/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-121">
@@ -698,7 +752,7 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -706,9 +760,198 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="187">
-            <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <caret line="11" selection-start-line="11" selection-end-line="11" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-jpa/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="39" column="21" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="39" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbm-annotations/src/main/java/com/mrcoder/sbmannotations/controller/DemoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-redis/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/sb-redis/src/main/java/com/mrcoder/sbredis/SbRedisApplication.java" />
+    <entry file="file://$PROJECT_DIR$/sb-redis-annotations/src/main/java/com/mrcoder/sbredisannotations/SbRedisAnnotationsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-redis/src/main/java/com/mrcoder/sbredis/controller/CacheController.java" />
+    <entry file="file://$PROJECT_DIR$/sb-redis-annotations/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-redis/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/sb-jpa/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-helloword/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-redis-annotations/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-redis-template/src/main/java/com/mrcoder/sbredistemplate/SbRedisTemplateApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-jpa/src/main/java/com/mrcoder/sbjpa/entity/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-jdbc/src/main/java/com/mrcoder/sbjdbc/entity/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="39" />
+          <folding>
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-redis-annotations/src/main/java/com/mrcoder/sbredisannotations/controller/CacheController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" column="73" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
+            <element signature="e#1042#1043#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.5.RELEASE/spring-data-redis-2.1.5.RELEASE-sources.jar!/org/springframework/data/redis/core/ValueOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-91">
+          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.5.RELEASE/spring-data-redis-2.1.5.RELEASE-sources.jar!/org/springframework/data/redis/core/RedisTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1784">
+          <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-redis-template/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-redis-template/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-redis-template/src/main/java/com/mrcoder/sbredistemplate/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="121" column="17" selection-end-line="134" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-redis-template/src/main/java/com/mrcoder/sbredistemplate/entity/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="27" column="19" selection-end-line="43" />
+          <folding>
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-redis-template/src/main/java/com/mrcoder/sbredistemplate/service/RedisService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="112" column="8" selection-end-line="124" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2015#2016#0" expanded="true" />
+            <element signature="e#2072#2073#0" expanded="true" />
+            <element signature="e#2207#2208#0" expanded="true" />
+            <element signature="e#2256#2257#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-redis-template/src/main/java/com/mrcoder/sbredistemplate/util/RedisKeyUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-redis-template/src/main/java/com/mrcoder/sbredistemplate/controller/CacheController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="53" column="66" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
