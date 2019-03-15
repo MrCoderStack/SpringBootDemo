@@ -22,6 +22,7 @@
         <module>sb-jdbc</module>
         <module>sb-redis-annotations</module>
         <module>sb-redis-template</module>
+        <module>sb-mail</module>
         <module>sbm-generator</module>
         <module>sbm-annotations</module>
         <module>sbmp-multidb</module>

@@ -1,0 +1,10 @@
+spring:
+  mail:
+    host: smtp.qq.com
+    port: 465
+    username: xxxxxxxx@qq.com
+    password: 生成的授权码
+    smtp:
+      auth: true
+      starttls: true
+      required: true
