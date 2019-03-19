@@ -9,6 +9,7 @@
         <module name="sb-helloword" />
         <module name="sb-jdbc" />
         <module name="sb-jpa" />
+        <module name="sb-jpa-multidb" />
         <module name="sb-jsp" />
         <module name="sb-mail" />
         <module name="sb-redis-annotations" />
@@ -29,6 +30,7 @@
       <module name="sb-helloword" options="-parameters" />
       <module name="sb-jdbc" options="-parameters" />
       <module name="sb-jpa" options="-parameters" />
+      <module name="sb-jpa-multidb" options="-parameters" />
       <module name="sb-jsp" options="-parameters" />
       <module name="sb-mail" options="-parameters" />
       <module name="sb-redis" options="-parameters" />

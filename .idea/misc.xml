@@ -16,6 +16,7 @@
         <option value="$PROJECT_DIR$/sb-mail/pom.xml" />
         <option value="$PROJECT_DIR$/sb-jsp/pom.xml" />
         <option value="$PROJECT_DIR$/sb-thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/sb-jpa-multidb/pom.xml" />
       </list>
     </option>
   </component>
