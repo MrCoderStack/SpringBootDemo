@@ -4,8 +4,6 @@
     <list default="true" id="fb3ad222-a93b-4a57-836c-e736a1479f48" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sb-jpa-multidb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sb-jpa-multidb/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/sbmp-multidb/target/" />
@@ -64,8 +62,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="558">
-                <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+              <first_editor relative-caret-position="575">
+                <caret line="70" column="22" lean-forward="true" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
               </first_editor>
               <second_editor />
             </state>
@@ -254,7 +252,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552967922296" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552973478624" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/sb-jsp/src/main/webapp" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -439,12 +437,12 @@
       <workItem from="1552633960225" duration="4010000" />
       <workItem from="1552872647716" duration="84000" />
       <workItem from="1552873037661" duration="19508000" />
-      <workItem from="1552958809286" duration="8198000" />
+      <workItem from="1552958809286" duration="8875000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91697000" />
+    <option name="totallyTimeSpent" value="92374000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -746,8 +744,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="558">
-            <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+          <first_editor relative-caret-position="575">
+            <caret line="70" column="22" lean-forward="true" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
           </first_editor>
           <second_editor />
         </state>
