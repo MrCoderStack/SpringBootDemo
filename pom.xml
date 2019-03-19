@@ -19,6 +19,7 @@
     <modules>
         <module>sb-helloword</module>
         <module>sb-jpa</module>
+        <module>sb-jpa-multidb</module>
         <module>sb-jdbc</module>
         <module>sb-jsp</module>
         <module>sb-redis-annotations</module>
