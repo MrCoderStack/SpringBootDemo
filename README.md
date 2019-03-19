@@ -12,6 +12,10 @@ Spring Boot 学习示例
 
 
 ## 介绍   
+
+本项目基于springboot最新版2.1.3RELEASE
+
+
 收集记录学习spring的点点滴滴，通过每一个小demo，一步步进阶，逐步完善。
 
 实际开发过程很少碰到单模块的项目，所以该项目使用多模块开发，更贴合实际开发要求。
@@ -54,6 +58,7 @@ sbmp  =》 spring boot mybatis plus
 - [sb-helloword](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-helloword)：IDEA创建spring boot项目
 - [sb-thymeleaf](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-thymeleaf)：springboot 结合thymeleaf模板使用
 - [sb-jdbc](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-jdbc)：jdbc访问mysql
+- [sb-jdbc-multidb](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-jdbc-multidb)：jdbc 多数据源案例
 - [sb-jpa](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-jpa)：jpa方式访问mysql
 - [sb-jpa-multidb](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-jpa-multidb)：jpa 多数据源案例
 - [sb-jsp](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-jsp)：整合jsp

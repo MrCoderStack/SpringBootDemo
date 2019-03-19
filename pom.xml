@@ -21,6 +21,7 @@
         <module>sb-jpa</module>
         <module>sb-jpa-multidb</module>
         <module>sb-jdbc</module>
+        <module>sb-jdbc-multidb</module>
         <module>sb-jsp</module>
         <module>sb-redis-annotations</module>
         <module>sb-redis-template</module>
