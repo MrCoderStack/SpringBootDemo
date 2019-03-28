@@ -61,6 +61,7 @@ sbmp  =》 spring boot mybatis plus
 - [sb-jdbc-multidb](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-jdbc-multidb)：jdbc 多数据源案例
 - [sb-jpa](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-jpa)：jpa方式访问mysql
 - [sb-jpa-multidb](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-jpa-multidb)：jpa 多数据源案例
+- [sb-jpa-multidb-atomikos](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-jpa-multidb-atomikos)：jpa+atomikos 多数据源分布式事务处理案例
 - [sb-jsp](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-jsp)：整合jsp
 - [sb-mail](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-mail)：整合mail
 - [sb-redis-annotations](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-redis-annotations)：注解操作redis

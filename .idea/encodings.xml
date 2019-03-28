@@ -7,6 +7,7 @@
     <file url="file://$PROJECT_DIR$/sb-jdbc-multidb" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sb-jpa" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sb-jpa-multidb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sb-jpa-multidb-atomikos" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sb-jsp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sb-mail" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sb-redis-annotations" charset="UTF-8" />

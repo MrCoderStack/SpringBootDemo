@@ -20,6 +20,7 @@
         <module>sb-helloword</module>
         <module>sb-jpa</module>
         <module>sb-jpa-multidb</module>
+        <module>sb-jpa-multidb-atomikos</module>
         <module>sb-jdbc</module>
         <module>sb-jdbc-multidb</module>
         <module>sb-jsp</module>
