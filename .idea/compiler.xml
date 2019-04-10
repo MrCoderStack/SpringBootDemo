@@ -9,6 +9,7 @@
         <module name="sb-helloword" />
         <module name="sb-jdbc" />
         <module name="sb-jdbc-multidb" />
+        <module name="sb-jdbc-multidb-atomikos" />
         <module name="sb-jpa" />
         <module name="sb-jpa-multidb" />
         <module name="sb-jpa-multidb-atomikos" />
@@ -32,6 +33,7 @@
       <module name="sb-helloword" options="-parameters" />
       <module name="sb-jdbc" options="-parameters" />
       <module name="sb-jdbc-multidb" options="-parameters" />
+      <module name="sb-jdbc-multidb-atomikos" options="-parameters" />
       <module name="sb-jpa" options="-parameters" />
       <module name="sb-jpa-multidb" options="-parameters" />
       <module name="sb-jpa-multidb-atomikos" options="-parameters" />

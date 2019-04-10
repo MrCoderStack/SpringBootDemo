@@ -59,6 +59,7 @@ sbmp  =》 spring boot mybatis plus
 - [sb-thymeleaf](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-thymeleaf)：springboot 结合thymeleaf模板使用
 - [sb-jdbc](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-jdbc)：jdbc访问mysql
 - [sb-jdbc-multidb](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-jdbc-multidb)：jdbc 多数据源案例
+- [sb-jdbc-multidb-atomikos](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-jdbc-multidb-atomikos)：jdbc+atomikos 多数据源分布式事务处理案例
 - [sb-jpa](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-jpa)：jpa方式访问mysql
 - [sb-jpa-multidb](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-jpa-multidb)：jpa 多数据源案例
 - [sb-jpa-multidb-atomikos](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-jpa-multidb-atomikos)：jpa+atomikos 多数据源分布式事务处理案例

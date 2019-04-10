@@ -23,6 +23,7 @@
         <module>sb-jpa-multidb-atomikos</module>
         <module>sb-jdbc</module>
         <module>sb-jdbc-multidb</module>
+        <module>sb-jdbc-multidb-atomikos</module>
         <module>sb-jsp</module>
         <module>sb-redis-annotations</module>
         <module>sb-redis-template</module>
