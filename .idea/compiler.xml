@@ -20,12 +20,15 @@
         <module name="sb-thymeleaf" />
         <module name="sbm-annotations" />
         <module name="sbm-generator" />
+        <module name="sbm-multidb-annotations" />
+        <module name="sbm-multidb-xml" />
         <module name="sbmp-multidb" />
         <module name="sbmp-multidb-druid" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="sb-redis" target="1.8" />
+      <module name="sbm-multidb-annotation" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -45,6 +48,9 @@
       <module name="sb-thymeleaf" options="-parameters" />
       <module name="sbm-annotations" options="-parameters" />
       <module name="sbm-generator" options="-parameters" />
+      <module name="sbm-multidb-annotation" options="-parameters" />
+      <module name="sbm-multidb-annotations" options="-parameters" />
+      <module name="sbm-multidb-xml" options="-parameters" />
       <module name="sbmp-multidb" options="-parameters" />
       <module name="sbmp-multidb-druid" options="-parameters" />
     </option>

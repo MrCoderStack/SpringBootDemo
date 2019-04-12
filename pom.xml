@@ -31,6 +31,8 @@
         <module>sb-thymeleaf</module>
         <module>sbm-generator</module>
         <module>sbm-annotations</module>
+        <module>sbm-multidb-annotations</module>
+        <module>sbm-multidb-xml</module>
         <module>sbmp-multidb</module>
         <module>sbmp-multidb-druid</module>
     </modules>

@@ -69,6 +69,8 @@ sbmp  =》 spring boot mybatis plus
 - [sb-redis-template](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-redis-template)：redisTemplate操作redis
 - [sbm-annotations](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sbm-annotations)：注解方式访问mysql
 - [sbm-generator](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sbm-generator)：mapper.xml方式操作数据，mybatis-generator-maven-plugin自动生成代码，集成pagehelper-spring-boot-starter分页控件来使用，附带非分页方式
+- [sbm-multidb-annotations](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sbm-multidb-annotations)：mybatis多数据源案例，使用注解方式操作mysql
+- [sbm-multidb-xml](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sbm-multidb-xml)：mybatis多数据源案例，使用mapper.xml方式操作mysql
 - [sbmp-multidb](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sbmp-multidb)：mapper.xml方式访问mysql，mybatis-plus-generator自动生成代码，dynamic-datasource-spring-boot-starter多库切换
 - [sbmp-multidb-druid](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sbmp-multidb-druid)：注解方式访问mysql，spring-boot-starter-aop，druid多库切换
 

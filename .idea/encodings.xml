@@ -16,6 +16,9 @@
     <file url="file://$PROJECT_DIR$/sb-thymeleaf" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sbm-annotations" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sbm-generator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sbm-multidb-annotation" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sbm-multidb-annotations" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sbm-multidb-xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sbmp-multidb" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sbmp-multidb-druid" charset="UTF-8" />
   </component>
