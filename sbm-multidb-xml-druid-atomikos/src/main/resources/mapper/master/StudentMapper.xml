@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.mrcoder.sbmmultidbxmldruidatomikos.mapper.master.StudentMapper">
+    <resultMap id="BaseResultMap" type="com.mrcoder.sbmmultidbxmldruidatomikos.entity.master.Student">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+        <result column="name" property="name" jdbcType="VARCHAR"/>
+        <result column="age" property="age" jdbcType="INTEGER"/>
+        <result column="grade" property="grade" javaType="INTEGER"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id, name, age, grade
+    </sql>
+
+    <select id="getList" resultMap="BaseResultMap">
+        SELECT
+        <include refid="Base_Column_List"/>
+        FROM student
+    </select>
+
+    <select id="getById" parameterType="java.lang.Long" resultMap="BaseResultMap">
+        SELECT
+        <include refid="Base_Column_List"/>
+        FROM student
+        WHERE id = #{id}
+    </select>
+
+    <insert id="insert" parameterType="com.mrcoder.sbmmultidbxmldruidatomikos.entity.master.Student">
+       INSERT INTO
+       		student
+       		(age,grade,name)
+       	VALUES
+       		(#{age}, #{grade}, #{name})
+    </insert>
+
+    <update id="update" parameterType="com.mrcoder.sbmmultidbxmldruidatomikos.entity.master.Student">
+        UPDATE
+        student
+        SET
+        age = #{age},
+        grade = #{grade},
+        name = #{name}
+        WHERE
+        id = #{id}
+    </update>
+
+    <delete id="delete" parameterType="java.lang.Long">
+       DELETE FROM
+       		 student
+       WHERE
+       		 id =#{id}
+    </delete>
+
+</mapper>

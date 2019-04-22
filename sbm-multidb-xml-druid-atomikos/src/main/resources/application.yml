@@ -1,0 +1,95 @@
+## 公共配置start
+## 配置数据源相关信息
+spring:
+  ## 环境配置
+  profiles:
+    active: dev
+  ## 数据源设置
+  datasource:
+    type: com.alibaba.druid.pool.xa.DruidXADataSource
+    druid:
+      ## 连接池配置
+      master:
+        ## JDBC配置
+        name: master
+        url: jdbc:mysql://10.39.35.149:3306/test?useUnicode=true&characterEncoding=UTF-8&useSSL=false&autoReconnect=true&failOverReadOnly=false&serverTimezone=GMT%2B8
+        username: root
+        password: vanke_123
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        filters: stat
+        maxActive: 20
+        initialSize: 1
+        maxWait: 60000
+        minIdle: 1
+        timeBetweenEvictionRunsMillis: 60000
+        minEvictableIdleTimeMillis: 300000
+        validationQuery: select 'x'
+        testWhileIdle: true
+        testOnBorrow: true
+        testOnReturn: true
+        poolPreparedStatements: true
+        maxOpenPreparedStatements: 20
+      slave:
+        ## JDBC配置
+        name: slave
+        url: jdbc:mysql://10.39.35.149:3306/test2?useUnicode=true&characterEncoding=UTF-8&useSSL=false&autoReconnect=true&failOverReadOnly=false&serverTimezone=GMT%2B8
+        username: root
+        password: vanke_123
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        filters: stat
+        maxActive: 20
+        initialSize: 1
+        maxWait: 60000
+        minIdle: 1
+        timeBetweenEvictionRunsMillis: 60000
+        minEvictableIdleTimeMillis: 300000
+        validationQuery: select 'x'
+        testWhileIdle: true
+        testOnBorrow: true
+        testOnReturn: true
+        poolPreparedStatements: true
+        maxOpenPreparedStatements: 20
+
+  redis:
+    host: 127.0.0.1  # redis服务所在的地址
+    port: 6379
+    password:   # redis的密码默认为空
+    pool:
+      max-active: 8  #连接池最大连接数（使用负值表示没有限制）
+      max-idle: 8  #连接池最大空闲数
+      min-idle: 1  #连接池最小空闲数
+      max-wait: 60000  #获取连接的超时等待事件
+    timeout: 30000  #连接redis服务器的最大等待时间
+
+  #druid监控页面用户名和密码
+  druid:
+    name: admin
+    pass: admin
+
+
+## 该配置节点为独立的节点
+mybatis:
+  mapper-locations: classpath:mapper/*/*.xml  # 注意：一定要对应mapper映射xml文件的所在路径
+  type-aliases-package: com.mrcoder.sbmmultidbxmldruidatomikos.entity # 注意：对应实体类的路径
+  configuration:
+    map-underscore-to-camel-case: true
+
+## 公共配置 end
+
+
+
+---
+spring:
+  profiles: dev
+server:
+  port: 8080
+---
+spring:
+  profiles: test
+server:
+  port: 8082
+---
+spring:
+  profiles: prod
+server:
+  port: 8084

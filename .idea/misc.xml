@@ -22,6 +22,7 @@
         <option value="$PROJECT_DIR$/sb-jdbc-multidb-atomikos/pom.xml" />
         <option value="$PROJECT_DIR$/sbm-multidb-annotations/pom.xml" />
         <option value="$PROJECT_DIR$/sbm-multidb-xml/pom.xml" />
+        <option value="$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/pom.xml" />
       </list>
     </option>
   </component>

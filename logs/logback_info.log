@@ -1,0 +1,116 @@
+2019-04-22 09:45:23,086 INFO [main] c.m.s.SbmMultidbXmlDruidAtomikosApplication [StartupInfoLogger.java : 50] Starting SbmMultidbXmlDruidAtomikosApplication on fengr06-szzbn with PID 30116 (D:\SpringBootDemo\sbm-multidb-xml-druid-atomikos\target\classes started by fengr06 in D:\SpringBootDemo)
+2019-04-22 09:45:23,094 INFO [main] c.m.s.SbmMultidbXmlDruidAtomikosApplication [SpringApplication.java : 679] The following profiles are active: dev
+2019-04-22 09:45:23,865 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-22 09:45:23,868 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-22 09:45:23,902 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+2019-04-22 09:45:24,188 INFO [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a76d5894] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-22 09:45:24,590 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 90] Tomcat initialized with port(s): 8080 (http)
+2019-04-22 09:45:24,604 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-22 09:45:24,612 INFO [main] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2019-04-22 09:45:24,612 INFO [main] o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-22 09:45:24,775 INFO [main] o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2019-04-22 09:45:24,775 INFO [main] o.s.web.context.ContextLoader [ServletWebServerApplicationContext.java : 296] Root WebApplicationContext: initialization completed in 1579 ms
+2019-04-22 09:45:24,781 INFO [main] c.m.s.config.DruidConfig [DruidConfig.java : 32] servletRegistrationBean configure is starting...
+2019-04-22 09:45:24,789 INFO [main] c.m.s.config.DruidConfig [DruidConfig.java : 49] filterRegistrationBean configure is starting...
+2019-04-22 09:45:24,858 INFO [main] c.m.s.config.MybatisConfig [MybatisConfig.java : 20] initialize the ConfigurationCustomizer....
+2019-04-22 09:45:25,148 INFO [main] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1002] {dataSource-1,master} inited
+2019-04-22 09:45:25,238 INFO [main] c.m.s.c.d.MasterSqlSessionTemplateConfig [MasterSqlSessionTemplateConfig.java : 47] mapper文件地址为：classpath:mapper/*/*.xml
+2019-04-22 09:45:25,294 INFO [main] c.m.s.c.d.MasterSqlSessionTemplateConfig [MasterSqlSessionTemplateConfig.java : 58] mybatis配置驼峰转换为：true
+2019-04-22 09:45:25,546 INFO [main] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1002] {dataSource-2,slave} inited
+2019-04-22 09:45:25,976 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-22 09:45:26,270 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8080"]
+2019-04-22 09:45:26,293 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 204] Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-22 09:45:26,296 INFO [main] c.m.s.SbmMultidbXmlDruidAtomikosApplication [StartupInfoLogger.java : 59] Started SbmMultidbXmlDruidAtomikosApplication in 4.302 seconds (JVM running for 5.491)
+2019-04-22 09:45:35,146 INFO [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-22 09:45:35,147 INFO [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 524] Initializing Servlet 'dispatcherServlet'
+2019-04-22 09:45:35,155 INFO [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 546] Completed initialization in 8 ms
+2019-04-22 09:45:38,463 INFO [Thread-3] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 208] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-22 09:45:38,465 INFO [Thread-3] c.a.datasource.pool.ConnectionPool [Slf4jLogger.java : 28] atomikos connection pool 'slaveDataSource': destroying pool...
+2019-04-22 09:45:38,490 INFO [Thread-3] c.a.datasource.pool.ConnectionPool [Slf4jLogger.java : 28] atomikos connection pool 'masterDataSource': destroying pool...
+2019-04-22 09:45:58,765 INFO [main] c.m.s.SbmMultidbXmlDruidAtomikosApplication [StartupInfoLogger.java : 50] Starting SbmMultidbXmlDruidAtomikosApplication on fengr06-szzbn with PID 21320 (D:\SpringBootDemo\sbm-multidb-xml-druid-atomikos\target\classes started by fengr06 in D:\SpringBootDemo)
+2019-04-22 09:45:58,771 INFO [main] c.m.s.SbmMultidbXmlDruidAtomikosApplication [SpringApplication.java : 679] The following profiles are active: test
+2019-04-22 09:45:59,677 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-22 09:45:59,680 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-22 09:45:59,712 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 19ms. Found 0 repository interfaces.
+2019-04-22 09:46:00,122 INFO [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$569d8925] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-22 09:46:00,476 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 90] Tomcat initialized with port(s): 8081 (http)
+2019-04-22 09:46:00,489 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8081"]
+2019-04-22 09:46:00,497 INFO [main] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2019-04-22 09:46:00,497 INFO [main] o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-22 09:46:00,615 INFO [main] o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2019-04-22 09:46:00,616 INFO [main] o.s.web.context.ContextLoader [ServletWebServerApplicationContext.java : 296] Root WebApplicationContext: initialization completed in 1729 ms
+2019-04-22 09:46:00,624 INFO [main] c.m.s.config.DruidConfig [DruidConfig.java : 32] servletRegistrationBean configure is starting...
+2019-04-22 09:46:00,632 INFO [main] c.m.s.config.DruidConfig [DruidConfig.java : 49] filterRegistrationBean configure is starting...
+2019-04-22 09:46:00,714 INFO [main] c.m.s.config.MybatisConfig [MybatisConfig.java : 20] initialize the ConfigurationCustomizer....
+2019-04-22 09:46:00,969 INFO [main] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1002] {dataSource-1,master} inited
+2019-04-22 09:46:01,034 INFO [main] c.m.s.c.d.MasterSqlSessionTemplateConfig [MasterSqlSessionTemplateConfig.java : 47] mapper文件地址为：classpath:mapper/*/*.xml
+2019-04-22 09:46:01,071 INFO [main] c.m.s.c.d.MasterSqlSessionTemplateConfig [MasterSqlSessionTemplateConfig.java : 58] mybatis配置驼峰转换为：true
+2019-04-22 09:46:01,211 INFO [main] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1002] {dataSource-2,slave} inited
+2019-04-22 09:46:01,539 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-22 09:46:01,807 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8081"]
+2019-04-22 09:46:01,834 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Pausing ProtocolHandler ["http-nio-8081"]
+2019-04-22 09:46:01,835 INFO [main] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Stopping service [Tomcat]
+2019-04-22 09:46:01,840 INFO [main] o.apache.catalina.util.LifecycleBase [DirectJDKLog.java : 173] The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2019-04-22 09:46:01,840 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Stopping ProtocolHandler ["http-nio-8081"]
+2019-04-22 09:46:01,840 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Destroying ProtocolHandler ["http-nio-8081"]
+2019-04-22 09:46:01,843 INFO [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java : 142] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-04-22 09:46:01,849 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 208] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-22 09:46:01,850 INFO [main] c.a.datasource.pool.ConnectionPool [Slf4jLogger.java : 28] atomikos connection pool 'slaveDataSource': destroying pool...
+2019-04-22 09:46:01,870 INFO [main] c.a.datasource.pool.ConnectionPool [Slf4jLogger.java : 28] atomikos connection pool 'masterDataSource': destroying pool...
+2019-04-22 09:46:44,444 INFO [main] c.m.s.SbmMultidbXmlDruidAtomikosApplication [StartupInfoLogger.java : 50] Starting SbmMultidbXmlDruidAtomikosApplication on fengr06-szzbn with PID 22364 (D:\SpringBootDemo\sbm-multidb-xml-druid-atomikos\target\classes started by fengr06 in D:\SpringBootDemo)
+2019-04-22 09:46:44,448 INFO [main] c.m.s.SbmMultidbXmlDruidAtomikosApplication [SpringApplication.java : 679] The following profiles are active: test
+2019-04-22 09:46:45,379 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-22 09:46:45,383 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-22 09:46:45,420 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.
+2019-04-22 09:46:45,780 INFO [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2230fbc1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-22 09:46:46,143 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 90] Tomcat initialized with port(s): 8082 (http)
+2019-04-22 09:46:46,157 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8082"]
+2019-04-22 09:46:46,166 INFO [main] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2019-04-22 09:46:46,167 INFO [main] o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-22 09:46:46,296 INFO [main] o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2019-04-22 09:46:46,296 INFO [main] o.s.web.context.ContextLoader [ServletWebServerApplicationContext.java : 296] Root WebApplicationContext: initialization completed in 1761 ms
+2019-04-22 09:46:46,303 INFO [main] c.m.s.config.DruidConfig [DruidConfig.java : 32] servletRegistrationBean configure is starting...
+2019-04-22 09:46:46,310 INFO [main] c.m.s.config.DruidConfig [DruidConfig.java : 49] filterRegistrationBean configure is starting...
+2019-04-22 09:46:46,412 INFO [main] c.m.s.config.MybatisConfig [MybatisConfig.java : 20] initialize the ConfigurationCustomizer....
+2019-04-22 09:46:47,043 INFO [main] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1002] {dataSource-1,master} inited
+2019-04-22 09:46:47,174 INFO [main] c.m.s.c.d.MasterSqlSessionTemplateConfig [MasterSqlSessionTemplateConfig.java : 47] mapper文件地址为：classpath:mapper/*/*.xml
+2019-04-22 09:46:47,253 INFO [main] c.m.s.c.d.MasterSqlSessionTemplateConfig [MasterSqlSessionTemplateConfig.java : 58] mybatis配置驼峰转换为：true
+2019-04-22 09:46:47,508 INFO [main] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1002] {dataSource-2,slave} inited
+2019-04-22 09:46:47,991 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-22 09:46:48,289 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8082"]
+2019-04-22 09:46:48,309 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 204] Tomcat started on port(s): 8082 (http) with context path ''
+2019-04-22 09:46:48,311 INFO [main] c.m.s.SbmMultidbXmlDruidAtomikosApplication [StartupInfoLogger.java : 59] Started SbmMultidbXmlDruidAtomikosApplication in 4.707 seconds (JVM running for 5.44)
+2019-04-22 09:46:55,122 INFO [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-22 09:46:55,122 INFO [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 524] Initializing Servlet 'dispatcherServlet'
+2019-04-22 09:46:55,130 INFO [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 546] Completed initialization in 7 ms
+2019-04-22 09:46:58,488 INFO [Thread-6] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 208] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-22 09:46:58,491 INFO [Thread-6] c.a.datasource.pool.ConnectionPool [Slf4jLogger.java : 28] atomikos connection pool 'slaveDataSource': destroying pool...
+2019-04-22 09:46:58,511 INFO [Thread-6] c.a.datasource.pool.ConnectionPool [Slf4jLogger.java : 28] atomikos connection pool 'masterDataSource': destroying pool...
+2019-04-22 09:47:41,052 INFO [main] c.m.s.SbmMultidbXmlDruidAtomikosApplication [StartupInfoLogger.java : 50] Starting SbmMultidbXmlDruidAtomikosApplication on fengr06-szzbn with PID 16904 (D:\SpringBootDemo\sbm-multidb-xml-druid-atomikos\target\classes started by fengr06 in D:\SpringBootDemo)
+2019-04-22 09:47:41,129 INFO [main] c.m.s.SbmMultidbXmlDruidAtomikosApplication [SpringApplication.java : 679] The following profiles are active: test
+2019-04-22 09:47:42,024 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-22 09:47:42,027 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-22 09:47:42,062 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 20ms. Found 0 repository interfaces.
+2019-04-22 09:47:42,375 INFO [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ef416a6f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-22 09:47:42,689 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 90] Tomcat initialized with port(s): 8082 (http)
+2019-04-22 09:47:42,712 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8082"]
+2019-04-22 09:47:42,728 INFO [main] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2019-04-22 09:47:42,728 INFO [main] o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-22 09:47:42,872 INFO [main] o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2019-04-22 09:47:42,872 INFO [main] o.s.web.context.ContextLoader [ServletWebServerApplicationContext.java : 296] Root WebApplicationContext: initialization completed in 1675 ms
+2019-04-22 09:47:42,878 INFO [main] c.m.s.config.DruidConfig [DruidConfig.java : 32] servletRegistrationBean configure is starting...
+2019-04-22 09:47:42,884 INFO [main] c.m.s.config.DruidConfig [DruidConfig.java : 49] filterRegistrationBean configure is starting...
+2019-04-22 09:47:42,950 INFO [main] c.m.s.config.MybatisConfig [MybatisConfig.java : 20] initialize the ConfigurationCustomizer....
+2019-04-22 09:47:43,196 INFO [main] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1002] {dataSource-1,master} inited
+2019-04-22 09:47:43,261 INFO [main] c.m.s.c.d.MasterSqlSessionTemplateConfig [MasterSqlSessionTemplateConfig.java : 47] mapper文件地址为：classpath:mapper/*/*.xml
+2019-04-22 09:47:43,292 INFO [main] c.m.s.c.d.MasterSqlSessionTemplateConfig [MasterSqlSessionTemplateConfig.java : 58] mybatis配置驼峰转换为：true
+2019-04-22 09:47:43,453 INFO [main] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1002] {dataSource-2,slave} inited
+2019-04-22 09:47:43,991 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-22 09:47:44,383 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8082"]
+2019-04-22 09:47:44,411 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 204] Tomcat started on port(s): 8082 (http) with context path ''
+2019-04-22 09:47:44,414 INFO [main] c.m.s.SbmMultidbXmlDruidAtomikosApplication [StartupInfoLogger.java : 59] Started SbmMultidbXmlDruidAtomikosApplication in 4.482 seconds (JVM running for 5.255)
+2019-04-22 09:47:46,145 INFO [Thread-6] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 208] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-22 09:47:46,148 INFO [Thread-6] c.a.datasource.pool.ConnectionPool [Slf4jLogger.java : 28] atomikos connection pool 'slaveDataSource': destroying pool...
+2019-04-22 09:47:46,177 INFO [Thread-6] c.a.datasource.pool.ConnectionPool [Slf4jLogger.java : 28] atomikos connection pool 'masterDataSource': destroying pool...

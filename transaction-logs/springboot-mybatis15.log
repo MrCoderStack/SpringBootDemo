@@ -1,0 +1,1 @@
+{"id":"10.39.35.92.tm155566111034600001","wasCommitted":false,"participants":[{"uri":"10.39.35.92.tm1","state":"TERMINATED","expires":1555661710533,"resourceName":"masterDataSource"},{"uri":"10.39.35.92.tm2","state":"TERMINATED","expires":1555661710533,"resourceName":"slaveDataSource"}]}

@@ -22,6 +22,7 @@
         <module name="sbm-generator" />
         <module name="sbm-multidb-annotations" />
         <module name="sbm-multidb-xml" />
+        <module name="sbm-multidb-xml-druid-atomikos" />
         <module name="sbmp-multidb" />
         <module name="sbmp-multidb-druid" />
       </profile>
@@ -51,6 +52,7 @@
       <module name="sbm-multidb-annotation" options="-parameters" />
       <module name="sbm-multidb-annotations" options="-parameters" />
       <module name="sbm-multidb-xml" options="-parameters" />
+      <module name="sbm-multidb-xml-druid-atomikos" options="-parameters" />
       <module name="sbmp-multidb" options="-parameters" />
       <module name="sbmp-multidb-druid" options="-parameters" />
     </option>
