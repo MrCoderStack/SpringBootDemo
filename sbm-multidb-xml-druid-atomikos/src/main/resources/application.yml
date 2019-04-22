@@ -79,16 +79,21 @@ mybatis:
 
 
 ---
+## 开发环境配置
 spring:
   profiles: dev
 server:
   port: 8080
+
 ---
+## 测试环境配置
 spring:
   profiles: test
 server:
   port: 8082
+
 ---
+## 生产环境配置
 spring:
   profiles: prod
 server:
