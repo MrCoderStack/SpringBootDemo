@@ -35,6 +35,7 @@
         <module>sbm-multidb-xml</module>
         <module>sbmp-multidb</module>
         <module>sbmp-multidb-druid</module>
+        <module>sbm-common-mapper</module>
     </modules>
 
 

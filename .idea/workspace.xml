@@ -2,7 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb3ad222-a93b-4a57-836c-e736a1479f48" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/sbm-common-mapper/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbm-common-mapper/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbm-common-mapper/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbm-common-mapper/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbm-common-mapper/db/test-person.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbm-common-mapper/image/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbm-common-mapper/image/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbm-common-mapper/image/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbm-common-mapper/image/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbm-common-mapper/image/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbm-common-mapper/image/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbm-common-mapper/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbm-common-mapper/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbm-common-mapper/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbm-common-mapper/src/main/java/com/mrcoder/sbmcommonmapper/SbmCommonMapperApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbm-common-mapper/src/main/java/com/mrcoder/sbmcommonmapper/controller/CommonMapperController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbm-common-mapper/src/main/java/com/mrcoder/sbmcommonmapper/mapper/PersonMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbm-common-mapper/src/main/java/com/mrcoder/sbmcommonmapper/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbm-common-mapper/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbm-common-mapper/src/main/resources/generator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbm-common-mapper/src/test/java/com/mrcoder/sbmcommonmapper/SbmCommonMapperApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/sbmp-multidb/target/" />
@@ -27,6 +52,7 @@
     <ignored path="$PROJECT_DIR$/sbm-multidb-annotations/target/" />
     <ignored path="$PROJECT_DIR$/sbm-multidb-xml/target/" />
     <ignored path="$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/target/" />
+    <ignored path="$PROJECT_DIR$/sbm-common-mapper/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +63,9 @@
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/SpringBootDemo$SbJpaMultidbApplication.ic" NAME="SbJpaMultidbApplication Coverage Results" MODIFIED="1552898677473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/SpringBootDemo$SbJpaMultidbAtomikosApplication.ic" NAME="SbJpaMultidbAtomikosApplication Coverage Results" MODIFIED="1553667972694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/SpringBootDemo$SbJpaApplication.ic" NAME="SbJpaApplication Coverage Results" MODIFIED="1552372127057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/SpringBootDemo$SbJpaMultidbApplication.ic" NAME="SbJpaMultidbApplication Coverage Results" MODIFIED="1552898677473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CoverageViewManager">
     <option name="myAutoScrollToSource" value="true" />
@@ -65,10 +91,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/sbm-common-mapper/src/main/java/com/mrcoder/sbmcommonmapper/mapper/PersonMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+            <state relative-caret-position="70">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sbm-common-mapper/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="825">
+              <caret line="55" column="31" lean-forward="true" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sbm-common-mapper/src/main/java/com/mrcoder/sbmcommonmapper/SbmCommonMapperApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sbm-common-mapper/src/main/java/com/mrcoder/sbmcommonmapper/controller/CommonMapperController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="66" column="51" lean-forward="true" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,7 +150,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>masterEntityManagerFactory</find>
       <find>masterTransactionManager</find>
       <find>PlatformTransactionManager</find>
       <find>EntityManager</find>
@@ -118,6 +179,7 @@
       <find>caused</find>
       <find>get</find>
       <find>set</find>
+      <find>D</find>
     </findStrings>
     <replaceStrings>
       <replace>master</replace>
@@ -134,15 +196,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sbm-multidb-xml/src/main/resources/mapper/1.html" />
-        <option value="$PROJECT_DIR$/sbm-multidb-annotations/src/main/java/com/mrcoder/sbmmultidbannotations/controller/CurdController.java" />
-        <option value="$PROJECT_DIR$/sbm-multidb-xml/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/sbm-multidb-xml/src/main/resources/mapper/master/StudentMapper.xml" />
-        <option value="$PROJECT_DIR$/sbm-multidb-xml/src/main/resources/mapper/slave/TeacherMapper.xml" />
-        <option value="$PROJECT_DIR$/sbm-multidb-xml/src/main/java/com/mrcoder/sbmmultidbxml/SbmMultidbXmlApplication.java" />
-        <option value="$PROJECT_DIR$/sbm-multidb-xml/src/main/java/com/mrcoder/sbmmultidbxml/config/SlaveConfig.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/sbmp-multidb-druid/pom.xml" />
         <option value="$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/config/datasource/SqlSessionTemplateBussinessConfig.java" />
         <option value="$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/config/datasource/SqlSessionTemplateBaseConfig.java" />
@@ -178,21 +231,30 @@
         <option value="$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/resources/logback-spring.xml" />
         <option value="$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/resources/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/resources/generator/slaveGenerator.xml" />
+        <option value="$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/pom.xml" />
         <option value="$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/config/RedisConfig.java" />
         <option value="$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/utils/redis/RedisUtil.java" />
         <option value="$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/controller/CurdController.java" />
         <option value="$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/service/RedisService.java" />
         <option value="$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/SbmMultidbXmlDruidAtomikosApplication.java" />
         <option value="$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/sbm-common-mapper/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/sbm-common-mapper/src/main/resources/generator.xml" />
+        <option value="$PROJECT_DIR$/sbm-common-mapper/src/main/resources/mapper/PersonMapper.xml" />
+        <option value="$PROJECT_DIR$/sbm-common-mapper/src/main/java/com/mrcoder/sbmcommonmapper/SbmCommonMapperApplication.java" />
+        <option value="$PROJECT_DIR$/sbm-common-mapper/src/main/java/com/mrcoder/sbmcommonmapper/model/Person.java" />
+        <option value="$PROJECT_DIR$/sbm-common-mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/sbm-common-mapper/src/main/java/com/mrcoder/sbmcommonmapper/mapper/PersonMapper.java" />
+        <option value="$PROJECT_DIR$/sbm-common-mapper/src/main/java/com/mrcoder/sbmcommonmapper/controller/CommonMapperController.java" />
       </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:/maven" />
-        <option name="userSettingsFile" value="D:\MaveRepository\settings.xml" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../maven3" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../mavenRepository/settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -205,15 +267,31 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sbm-common-mapper" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sbm-common-mapper" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sbm-common-mapper" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="mybatis-generator" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="34" />
-    <option name="y" value="13" />
-    <option name="width" value="1631" />
-    <option name="height" value="1047" />
+    <option name="x" value="15" />
+    <option name="y" value="23" />
+    <option name="width" value="1321" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -223,9 +301,99 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="sbm-annotations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="sbm-annotations" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="sbm-annotations" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="sbm-annotations" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="sbm-annotations" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sbmannotations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="sbm-annotations" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sbmannotations" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="sbm-generator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="sbm-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="sbm-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="sbm-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="sbm-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="generator" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -237,23 +405,24 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556443829835" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559111532682" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/sb-jsp/src/main/webapp" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.other" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="ts.external.directory.path" value="D:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sbm-common-mapper/src/main/resources" />
       <recent name="D:\SpringBootDemo\sbm-multidb-xml-druid-atomikos\src\main\resources\generator" />
-      <recent name="D:\SpringBootDemo\sbm-multidb-xml-druid-atomikos\src\main\resources\mapper\slave" />
-      <recent name="D:\SpringBootDemo\sbm-multidb-xml-druid-atomikos\src\main\resources\mapper\master" />
-      <recent name="D:\SpringBootDemo\sbm-multidb-xml-druid-atomikos\src\main\resources\mapper" />
+      <recent name="D:\SpringBootDemo\sbm-multidb-xml-druid-atomikos\src\main\resources" />
+      <recent name="D:\SpringBootDemo\sbm-multidb-xml-druid-atomikos\src\main\java\com\mrcoder\sbmmultidbxmldruidatomikos" />
+      <recent name="D:\SpringBootDemo\sbm-multidb-xml\src\main\java\com\mrcoder\sbmmultidbxml" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.mrcoder.sbjdbcmultidbatomikos.dao" />
@@ -262,12 +431,11 @@
       <recent name="com.mrcoder.sbjpamultidb.service.impl" />
       <recent name="com.mrcoder.sbjpamultidb.entity" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\SpringBootDemo\sbm-multidb-xml-druid-atomikos\src\main\resources\generator" />
-      <recent name="D:\SpringBootDemo\sbm-multidb-xml-druid-atomikos\src\main\resources" />
-      <recent name="D:\SpringBootDemo\sbm-multidb-xml-druid-atomikos\src\main\java\com\mrcoder\sbmmultidbxmldruidatomikos" />
-      <recent name="D:\SpringBootDemo\sbm-multidb-xml\src\main\java\com\mrcoder\sbmmultidbxml" />
-      <recent name="D:\SpringBootDemo\sbm-multidb-xml\src\main\resources" />
+      <recent name="D:\SpringBootDemo\sbm-multidb-xml-druid-atomikos\src\main\resources\mapper\slave" />
+      <recent name="D:\SpringBootDemo\sbm-multidb-xml-druid-atomikos\src\main\resources\mapper\master" />
+      <recent name="D:\SpringBootDemo\sbm-multidb-xml-druid-atomikos\src\main\resources\mapper" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -282,7 +450,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SbmpMultidbDruidApplication">
+  <component name="RunManager" selected="Spring Boot.SbmCommonMapperApplication">
     <configuration name="MysqlGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mrcoder.sbmpmultidb.generator.MysqlGenerator" />
       <module name="sbmp-multidb" />
@@ -396,6 +564,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SbmCommonMapperApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sbm-common-mapper" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mrcoder.sbmcommonmapper.SbmCommonMapperApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SbmGeneratorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="sbm-generator" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.mrcoder.sbmgenerator.SbmGeneratorApplication" />
@@ -468,6 +643,7 @@
       <item itemvalue="Spring Boot.SbmMultidbAnnotationsApplication" />
       <item itemvalue="Spring Boot.SbmMultidbXmlApplication" />
       <item itemvalue="Spring Boot.SbmMultidbXmlDruidAtomikosApplication" />
+      <item itemvalue="Spring Boot.SbmCommonMapperApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -476,7 +652,7 @@
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -503,25 +679,20 @@
       <workItem from="1555553507320" duration="4586000" />
       <workItem from="1555566369136" duration="34000" />
       <workItem from="1555566625982" duration="32855000" />
-      <workItem from="1555896148673" duration="1590000" />
-      <workItem from="1555898507980" duration="23000" />
-      <workItem from="1555915040444" duration="4260000" />
-      <workItem from="1555982985329" duration="591000" />
-      <workItem from="1556004099902" duration="11000" />
-      <workItem from="1556088089451" duration="1654000" />
-      <workItem from="1556442164742" duration="1065000" />
-      <workItem from="1556443507291" duration="364000" />
-      <workItem from="1556525481501" duration="34000" />
+      <workItem from="1555896148673" duration="1517000" />
+      <workItem from="1555912679959" duration="1102000" />
+      <workItem from="1555913964891" duration="665000" />
+      <workItem from="1559093292652" duration="10411000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="236768000" />
+    <option name="totallyTimeSpent" value="240871000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="34" y="13" width="1631" height="1047" extended-state="0" />
+    <frame x="15" y="23" width="1321" height="777" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24570337" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27912432" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -531,8 +702,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.6292135" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22234392" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.09869848" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5635036" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.8890511" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -544,15 +715,15 @@
       <window_info anchor="bottom" id="Problems" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="15" visible="true" weight="0.7065693" />
       <window_info anchor="bottom" id="TypeScript" order="16" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" sideWeight="0.49632353" visible="true" weight="0.19541693" />
+      <window_info anchor="right" id="Maven" order="3" sideWeight="0.49632353" visible="true" weight="0.023455825" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32956383" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" sideWeight="0.4987013" weight="0.42004263" />
@@ -570,13 +741,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.5.RELEASE/spring-data-redis-2.1.5.RELEASE-sources.jar!/org/springframework/data/redis/core/RedisTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.5.RELEASE/spring-data-redis-2.1.5.RELEASE-sources.jar!/org/springframework/data/redis/core/RedisTemplate.java" />
     <entry file="file://$PROJECT_DIR$/sb-redis-template/src/main/java/com/mrcoder/sbredistemplate/service/RedisService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
@@ -591,10 +756,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/SbmMultidbXmlDruidAtomikosApplication.java">
+    <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/resources/generator/slaveGenerator.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="663">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/resources/mapper/slave/TeacherMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="71" column="20" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/resources/mapper/master/StudentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/resources/generator/masterGenerator.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/config/datasource/DataSourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/config/datasource/MasterSqlSessionTemplateConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" column="57" selection-start-line="55" selection-start-column="57" selection-end-line="55" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/config/datasource/SlaveSqlSessionTemplateConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -603,8 +823,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/config/datasource/TransactionManagerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="51" selection-end-line="26" />
+        <state relative-caret-position="272">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -613,8 +833,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/config/wrapper/CustomWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="25" lean-forward="true" selection-end-line="25" />
+        <state relative-caret-position="340">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -623,18 +843,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/config/wrapper/MapWrapperFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="1" lean-forward="true" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/config/DruidConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="28" column="7" lean-forward="true" selection-end-line="57" />
+        <state relative-caret-position="187">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -643,8 +853,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/config/MybatisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="5" lean-forward="true" selection-end-line="28" />
+        <state relative-caret-position="391">
+          <caret line="23" column="79" selection-start-line="23" selection-start-column="79" selection-end-line="23" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/config/DruidConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -653,8 +873,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/config/RedisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-end-line="121" />
+        <state relative-caret-position="1513">
+          <caret line="89" column="6" selection-start-line="89" selection-start-column="6" selection-end-line="89" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/controller/CurdController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="659">
+          <caret line="86" column="37" lean-forward="true" selection-start-line="86" selection-start-column="37" selection-end-line="86" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -663,59 +893,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/entity/master/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-end-line="64" />
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/entity/slave/Teacher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" lean-forward="true" selection-end-line="62" />
+        <state relative-caret-position="289">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/mapper/master/StudentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/mapper/slave/TeacherMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" lean-forward="true" selection-end-line="24" />
+        <state relative-caret-position="136">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/service/RedisService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="29" column="23" lean-forward="true" selection-end-line="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/service/StudentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/service/TeacherService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/service/impl/StudentServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="27" column="18" selection-end-line="62" />
+        <state relative-caret-position="323">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -724,15 +937,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/service/impl/TeacherServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-end-line="4" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/service/RedisService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/service/StudentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/service/TeacherService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/utils/redis/RedisUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-end-line="557" />
+        <state relative-caret-position="1683">
+          <caret line="99" column="13" selection-start-line="99" selection-start-column="13" selection-end-line="99" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#472#473#0" expanded="true" />
@@ -753,217 +993,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/resources/generator/masterGenerator.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="57" lean-forward="true" selection-end-line="69" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/resources/jta.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="4" selection-end-line="5" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/config/datasource/MasterSqlSessionTemplateConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="37" column="47" lean-forward="true" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/config/datasource/SlaveSqlSessionTemplateConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/config/datasource/DataSourceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/controller/CurdController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
-          <caret line="86" column="35" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/resources/mapper/slave/TeacherMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="20" lean-forward="true" selection-end-line="53" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/resources/mapper/master/StudentMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="29" column="19" lean-forward="true" selection-end-line="53" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/resources/generator/slaveGenerator.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="54" lean-forward="true" selection-end-line="69" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/resources/logback-spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/sbm-multidb-xml-druid-atomikos.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/mvnw.cmd">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/mvnw">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-510" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/HELP.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/target/classes/generator/masterGenerator.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/target/test-classes/com/mrcoder/sbmmultidbxmldruidatomikos/SbmMultidbXmlDruidAtomikosApplicationTests.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#553#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/mapper/master/StudentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="36" lean-forward="true" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1264">
-          <caret line="82" column="19" lean-forward="true" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbmp-multidb-druid/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbmp-multidb-druid/src/main/java/com/mrcoder/sbmpmultidbdruid/config/DynamicDataSource.java">
+    <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/SbmMultidbXmlDruidAtomikosApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbmp-multidb-druid/src/main/java/com/mrcoder/sbmpmultidbdruid/config/MybatisPlusConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbmp-multidb-druid/src/main/java/com/mrcoder/sbmpmultidbdruid/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbmp-multidb-druid/src/main/java/com/mrcoder/sbmpmultidbdruid/mapper/db1/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbmp-multidb-druid/src/main/java/com/mrcoder/sbmpmultidbdruid/SbmpMultidbDruidApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbmp-multidb-druid/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1445">
-          <caret line="85" column="19" selection-start-line="19" selection-start-column="4" selection-end-line="85" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbmp-multidb-druid/src/main/java/com/mrcoder/sbmpmultidbdruid/config/DataSourceSwitch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbmp-multidb-druid/src/main/java/com/mrcoder/sbmpmultidbdruid/config/DbContextHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbmp-multidb-druid/src/main/java/com/mrcoder/sbmpmultidbdruid/config/DBTypeEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbmp-multidb-druid/src/main/java/com/mrcoder/sbmpmultidbdruid/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbmp-multidb-druid/src/main/java/com/mrcoder/sbmpmultidbdruid/config/DataSourceSwitchAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -972,8 +1005,158 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+        <state relative-caret-position="1335">
+          <caret line="89" column="7" lean-forward="true" selection-start-line="89" selection-start-column="7" selection-end-line="89" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbm-annotations/src/main/java/com/mrcoder/sbmannotations/dao/DemoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbm-annotations/src/main/java/com/mrcoder/sbmannotations/domain/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbm-annotations/src/main/java/com/mrcoder/sbmannotations/service/impl/DemoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbm-annotations/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="33" selection-end-line="5" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbm-annotations/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="25" selection-start-line="25" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbm-generator/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1027" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbm-annotations/db/test库-person.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="34" column="44" lean-forward="true" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbm-annotations/src/main/java/com/mrcoder/sbmannotations/controller/DemoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbm-common-mapper/src/main/resources/mapper/PersonMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../mavenRepository/tk/mybatis/mapper-base/1.1.5/mapper-base-1.1.5-sources.jar!/tk/mybatis/mapper/provider/base/BaseSelectProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../mavenRepository/tk/mybatis/mapper-base/1.1.5/mapper-base-1.1.5-sources.jar!/tk/mybatis/mapper/common/base/select/SelectAllMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbm-common-mapper/src/main/resources/generator.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbm-common-mapper/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbm-common-mapper/db/test-person.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbm-common-mapper/src/main/java/com/mrcoder/sbmcommonmapper/model/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbm-common-mapper/src/main/java/com/mrcoder/sbmcommonmapper/controller/CommonMapperController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="66" column="51" lean-forward="true" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbm-common-mapper/src/main/java/com/mrcoder/sbmcommonmapper/SbmCommonMapperApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbm-common-mapper/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" column="31" lean-forward="true" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbm-common-mapper/src/main/java/com/mrcoder/sbmcommonmapper/mapper/PersonMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -988,7 +1171,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1031,11 +1213,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|sb-jsp</last-edited>
+          <last-edited>SpringBootDemo</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
