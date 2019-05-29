@@ -2,32 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb3ad222-a93b-4a57-836c-e736a1479f48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sbm-common-mapper/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sbm-common-mapper/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sbm-common-mapper/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sbm-common-mapper/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sbm-common-mapper/db/test-person.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sbm-common-mapper/image/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sbm-common-mapper/image/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sbm-common-mapper/image/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sbm-common-mapper/image/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sbm-common-mapper/image/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sbm-common-mapper/image/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sbm-common-mapper/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sbm-common-mapper/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sbm-common-mapper/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sbm-common-mapper/src/main/java/com/mrcoder/sbmcommonmapper/SbmCommonMapperApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sbm-common-mapper/src/main/java/com/mrcoder/sbmcommonmapper/controller/CommonMapperController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sbm-common-mapper/src/main/java/com/mrcoder/sbmcommonmapper/mapper/PersonMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sbm-common-mapper/src/main/java/com/mrcoder/sbmcommonmapper/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sbm-common-mapper/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sbm-common-mapper/src/main/resources/generator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sbm-common-mapper/src/test/java/com/mrcoder/sbmcommonmapper/SbmCommonMapperApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sbm-generator/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sbm-generator/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/sbmp-multidb/target/" />
@@ -90,14 +66,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sbm-common-mapper/src/main/java/com/mrcoder/sbmcommonmapper/mapper/PersonMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
+            <state relative-caret-position="165">
               <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sbm-generator/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -196,7 +181,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sbmp-multidb-druid/pom.xml" />
         <option value="$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/config/datasource/SqlSessionTemplateBussinessConfig.java" />
         <option value="$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/config/datasource/SqlSessionTemplateBaseConfig.java" />
         <option value="$PROJECT_DIR$/sbm-multidb-xml/pom.xml" />
@@ -247,6 +231,7 @@
         <option value="$PROJECT_DIR$/sbm-common-mapper/pom.xml" />
         <option value="$PROJECT_DIR$/sbm-common-mapper/src/main/java/com/mrcoder/sbmcommonmapper/mapper/PersonMapper.java" />
         <option value="$PROJECT_DIR$/sbm-common-mapper/src/main/java/com/mrcoder/sbmcommonmapper/controller/CommonMapperController.java" />
+        <option value="$PROJECT_DIR$/sbm-generator/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -308,86 +293,6 @@
               <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="sbm-annotations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="sbm-annotations" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="sbm-annotations" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="sbm-annotations" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="sbm-annotations" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sbmannotations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="sbm-annotations" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sbmannotations" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="sbm-generator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="sbm-generator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="sbm-generator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="sbm-generator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="sbm-generator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="generator" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -405,7 +310,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559111532682" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559112008132" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/sb-jsp/src/main/webapp" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -682,17 +587,26 @@
       <workItem from="1555896148673" duration="1517000" />
       <workItem from="1555912679959" duration="1102000" />
       <workItem from="1555913964891" duration="665000" />
-      <workItem from="1559093292652" duration="10411000" />
+      <workItem from="1559093292652" duration="10857000" />
     </task>
+    <task id="LOCAL-00001" summary="add common mapper">
+      <created>1559111563478</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559111563478</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240871000" />
+    <option name="totallyTimeSpent" value="241317000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="15" y="23" width="1321" height="777" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27912432" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27912432" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -715,7 +629,7 @@
       <window_info anchor="bottom" id="Problems" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="15" visible="true" weight="0.7065693" />
+      <window_info anchor="bottom" id="Version Control" order="15" visible="true" weight="0.44671533" />
       <window_info anchor="bottom" id="TypeScript" order="16" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -733,14 +647,11 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add common mapper" />
+    <option name="LAST_COMMIT_MESSAGE" value="add common mapper" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sb-redis-template/src/main/java/com/mrcoder/sbredistemplate/util/RedisKeyUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="6" lean-forward="true" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.5.RELEASE/spring-data-redis-2.1.5.RELEASE-sources.jar!/org/springframework/data/redis/core/RedisTemplate.java" />
     <entry file="file://$PROJECT_DIR$/sb-redis-template/src/main/java/com/mrcoder/sbredistemplate/service/RedisService.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1152,11 +1063,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sbm-common-mapper/src/main/java/com/mrcoder/sbmcommonmapper/mapper/PersonMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
+        <state relative-caret-position="165">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbm-generator/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
         </state>
       </provider>
     </entry>
