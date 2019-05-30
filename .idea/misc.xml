@@ -24,6 +24,7 @@
         <option value="$PROJECT_DIR$/sbm-multidb-xml/pom.xml" />
         <option value="$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/pom.xml" />
         <option value="$PROJECT_DIR$/sbm-common-mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/sbm-excel/pom.xml" />
       </list>
     </option>
   </component>
