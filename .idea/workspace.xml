@@ -2,31 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb3ad222-a93b-4a57-836c-e736a1479f48" name="Default Changelist" comment="update readme">
-      <change afterPath="$PROJECT_DIR$/sbm-excel/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sbm-excel/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sbm-excel/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sbm-excel/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sbm-excel/db/test-excel.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sbm-excel/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sbm-excel/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sbm-excel/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sbm-excel/src/main/java/com/mrcoder/sbmexcel/SbmExcelApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sbm-excel/src/main/java/com/mrcoder/sbmexcel/controller/ExcelController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sbm-excel/src/main/java/com/mrcoder/sbmexcel/mapper/ExcelMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sbm-excel/src/main/java/com/mrcoder/sbmexcel/model/Excel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sbm-excel/src/main/java/com/mrcoder/sbmexcel/service/ExcelService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sbm-excel/src/main/java/com/mrcoder/sbmexcel/utils/excel/ExcelAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sbm-excel/src/main/java/com/mrcoder/sbmexcel/utils/excel/ExcelUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sbm-excel/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sbm-excel/src/main/resources/excel/export.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sbm-excel/src/main/resources/excel/import.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sbm-excel/src/main/resources/generator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sbm-excel/src/main/resources/mapper/ExcelMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sbm-excel/src/test/java/com/mrcoder/sbmexcel/SbmExcelApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -54,6 +34,7 @@
     <ignored path="$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/target/" />
     <ignored path="$PROJECT_DIR$/sbm-common-mapper/target/" />
     <ignored path="$PROJECT_DIR$/sbm-excel/target/" />
+    <ignored path="$PROJECT_DIR$/sb-swagger2/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,10 +76,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sbm-excel/src/main/java/com/mrcoder/sbmexcel/model/Excel.java">
+        <entry file="file://$PROJECT_DIR$/sb-swagger2/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+            <state relative-caret-position="127">
+              <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sb-swagger2/src/main/java/com/mrcoder/sbswagger2/config/Swagger2Config.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,55 +97,50 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sbm-excel/src/main/java/com/mrcoder/sbmexcel/utils/excel/ExcelUtil.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="39" column="27" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sbm-excel/src/main/java/com/mrcoder/sbmexcel/SbmExcelApplication.java">
+        <entry file="file://$PROJECT_DIR$/sb-swagger2/src/main/java/com/mrcoder/sbswagger2/controller/Swagger2Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="289">
+              <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#631#632#0" expanded="true" />
+                <element signature="e#858#859#0" expanded="true" />
+                <element signature="e#979#980#0" expanded="true" />
+                <element signature="e#1004#1005#0" expanded="true" />
+                <element signature="e#1682#1683#0" expanded="true" />
+                <element signature="e#1820#1821#0" expanded="true" />
+                <element signature="e#1849#1850#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sbm-excel/src/main/java/com/mrcoder/sbmexcel/service/ExcelService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-788">
-              <caret line="33" column="25" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="445">
+                <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sbm-excel/src/main/java/com/mrcoder/sbmexcel/utils/excel/ExcelAnnotation.java">
+        <entry file="file://$PROJECT_DIR$/sb-swagger2/src/main/java/com/mrcoder/sbswagger2/model/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="6" lean-forward="true" selection-end-line="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sbm-excel/src/main/java/com/mrcoder/sbmexcel/mapper/ExcelMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="1" lean-forward="true" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="405">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -178,7 +163,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>PlatformTransactionManager</find>
       <find>EntityManager</find>
       <find>customer</find>
       <find>AtomikosJtaPlatform</find>
@@ -208,6 +192,7 @@
       <find>set</find>
       <find>D</find>
       <find>height</find>
+      <find>ApiOperation</find>
     </findStrings>
     <replaceStrings>
       <replace>master</replace>
@@ -224,10 +209,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/config/datasource/SqlSessionTemplateMasterConfig.java" />
-        <option value="$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/config/Swagger2Config.java" />
-        <option value="$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/resources/mapper/TeacherMapper.xml" />
-        <option value="$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/resources/mapper/StudentMapper.xml" />
         <option value="$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/entity/Student.java" />
         <option value="$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/config/datasource/DataSourceConfig.java" />
         <option value="$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/config/MybatisConfig.java" />
@@ -263,9 +244,7 @@
         <option value="$PROJECT_DIR$/sbm-common-mapper/src/main/java/com/mrcoder/sbmcommonmapper/mapper/PersonMapper.java" />
         <option value="$PROJECT_DIR$/sbm-common-mapper/src/main/java/com/mrcoder/sbmcommonmapper/controller/CommonMapperController.java" />
         <option value="$PROJECT_DIR$/sbm-generator/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/sbm-excel/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/sbm-excel/src/main/resources/generator.xml" />
         <option value="$PROJECT_DIR$/sbm-excel/src/main/java/com/mrcoder/sbmexcel/mapper/ExcelMapper.java" />
         <option value="$PROJECT_DIR$/sbm-excel/src/main/java/com/mrcoder/sbmexcel/utils/excel/ExcelAnnotation.java" />
@@ -275,6 +254,12 @@
         <option value="$PROJECT_DIR$/sbm-excel/src/main/java/com/mrcoder/sbmexcel/controller/ExcelController.java" />
         <option value="$PROJECT_DIR$/sbm-excel/src/main/java/com/mrcoder/sbmexcel/service/ExcelService.java" />
         <option value="$PROJECT_DIR$/sbm-excel/pom.xml" />
+        <option value="$PROJECT_DIR$/sb-swagger2/src/main/java/com/mrcoder/sbswagger2/config/Swagger2Config.java" />
+        <option value="$PROJECT_DIR$/sb-swagger2/pom.xml" />
+        <option value="$PROJECT_DIR$/sb-swagger2/src/main/java/com/mrcoder/sbswagger2/model/Person.java" />
+        <option value="$PROJECT_DIR$/sb-swagger2/src/main/java/com/mrcoder/sbswagger2/controller/Swagger2Controller.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -320,10 +305,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-88" />
-    <option name="y" value="24" />
-    <option name="width" value="1280" />
-    <option name="height" value="776" />
+    <option name="x" value="-67" />
+    <option name="y" value="23" />
+    <option name="width" value="1329" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -341,117 +326,6 @@
               <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="sbm-excel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="sbm-excel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="sbm-excel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="sbm-excel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="sbm-excel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sbmexcel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="sbm-excel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sbmexcel" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="sbm-excel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sbmexcel" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="sbm-excel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sbmexcel" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="sbm-excel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sbmexcel" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="sbm-excel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sbmexcel" type="462c0819:PsiDirectoryNode" />
-              <item name="excel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="sbm-excel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="sbm-excel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="excel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="sbm-excel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -468,7 +342,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559206711840" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559637990120" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/sb-jsp/src/main/webapp" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -513,7 +387,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SbmExcelApplication">
+  <component name="RunManager" selected="Spring Boot.SbSwagger2Application">
     <configuration name="MysqlGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mrcoder.sbmpmultidb.generator.MysqlGenerator" />
       <module name="sbmp-multidb" />
@@ -609,6 +483,13 @@
     <configuration name="SbRedisTemplateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="sb-redis-template" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.mrcoder.sbredistemplate.SbRedisTemplateApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SbSwagger2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sb-swagger2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mrcoder.sbswagger2.SbSwagger2Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -715,6 +596,7 @@
       <item itemvalue="Spring Boot.SbmMultidbXmlDruidAtomikosApplication" />
       <item itemvalue="Spring Boot.SbmCommonMapperApplication" />
       <item itemvalue="Spring Boot.SbmExcelApplication" />
+      <item itemvalue="Spring Boot.SbSwagger2Application" />
     </list>
     <recent_temporary>
       <list>
@@ -755,7 +637,9 @@
       <workItem from="1555913964891" duration="665000" />
       <workItem from="1559093292652" duration="15872000" />
       <workItem from="1559120649075" duration="13614000" />
-      <workItem from="1559197832904" duration="4999000" />
+      <workItem from="1559197832904" duration="5463000" />
+      <workItem from="1559207103171" duration="10000" />
+      <workItem from="1559619342953" duration="9098000" />
     </task>
     <task id="LOCAL-00001" summary="add common mapper">
       <created>1559111563478</created>
@@ -778,17 +662,31 @@
       <option name="project" value="LOCAL" />
       <updated>1559112574259</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add excel">
+      <created>1559206751613</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1559206751613</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update readme">
+      <created>1559206869145</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1559206869145</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="264945000" />
+    <option name="totallyTimeSpent" value="274517000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-88" y="24" width="1280" height="776" extended-state="0" />
+    <frame x="-67" y="23" width="1329" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49802372" visible="true" weight="0.2584814" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49802372" visible="true" weight="0.13675214" />
       <window_info id="Structure" order="1" sideWeight="0.5019763" side_tool="true" weight="0.25019547" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -799,7 +697,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.6292135" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.07591241" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.68029195" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.63503647" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -811,12 +709,12 @@
       <window_info anchor="bottom" id="Problems" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" visible="true" weight="0.12134503" />
+      <window_info anchor="bottom" id="Version Control" order="15" visible="true" weight="0.07737226" />
       <window_info anchor="bottom" id="TypeScript" order="16" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" sideWeight="0.49632353" visible="true" weight="0.06865913" />
+      <window_info anchor="right" id="Maven" order="3" sideWeight="0.49632353" visible="true" weight="0.06604507" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.32956383" />
@@ -871,54 +769,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add common mapper" />
+    <MESSAGE value="add excel" />
     <MESSAGE value="update readme" />
     <option name="LAST_COMMIT_MESSAGE" value="update readme" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/controller/CurdController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
-          <caret line="86" column="37" lean-forward="true" selection-start-line="86" selection-start-column="37" selection-end-line="86" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/entity/master/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/entity/slave/Teacher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/mapper/master/StudentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/mapper/slave/TeacherMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sbm-multidb-xml-druid-atomikos/src/main/java/com/mrcoder/sbmmultidbxmldruidatomikos/service/impl/StudentServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1124,16 +979,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1050">
-            <caret line="70" column="50" selection-start-line="70" selection-start-column="50" selection-end-line="70" selection-end-column="50" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sbm-excel/sbm-excel.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1148,13 +993,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -1210,23 +1048,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sbm-excel/src/main/java/com/mrcoder/sbmexcel/controller/ExcelController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbm-excel/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="98" column="12" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="98" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sbm-excel/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1234,10 +1055,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sbm-excel/src/main/java/com/mrcoder/sbmexcel/mapper/ExcelMapper.java">
+    <entry file="file://$PROJECT_DIR$/sbm-excel/src/main/java/com/mrcoder/sbmexcel/utils/excel/ExcelUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbm-excel/src/main/java/com/mrcoder/sbmexcel/SbmExcelApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbm-excel/src/main/java/com/mrcoder/sbmexcel/controller/ExcelController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="1" lean-forward="true" selection-end-line="9" selection-end-column="1" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbm-excel/src/main/java/com/mrcoder/sbmexcel/service/ExcelService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1246,8 +1094,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sbm-excel/src/main/java/com/mrcoder/sbmexcel/utils/excel/ExcelAnnotation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="6" lean-forward="true" selection-end-line="24" />
+        <state relative-caret-position="255">
+          <caret line="18" column="6" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbm-excel/src/main/java/com/mrcoder/sbmexcel/mapper/ExcelMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="1" selection-end-line="9" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1264,30 +1122,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sbm-excel/src/main/java/com/mrcoder/sbmexcel/utils/excel/ExcelUtil.java">
+    <entry file="file://$PROJECT_DIR$/sbm-excel/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="52">
+          <caret line="72" selection-start-line="72" selection-end-line="76" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-swagger2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../mavenRepository/io/springfox/springfox-core/2.9.2/springfox-core-2.9.2-sources.jar!/springfox/documentation/annotations/ApiIgnore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-swagger2/src/main/java/com/mrcoder/sbswagger2/model/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sbm-excel/src/main/java/com/mrcoder/sbmexcel/SbmExcelApplication.java">
+    <entry file="file://$PROJECT_DIR$/sb-swagger2/src/main/java/com/mrcoder/sbswagger2/controller/Swagger2Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="289">
+          <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#858#859#0" expanded="true" />
+            <element signature="e#979#980#0" expanded="true" />
+            <element signature="e#1004#1005#0" expanded="true" />
+            <element signature="e#1682#1683#0" expanded="true" />
+            <element signature="e#1820#1821#0" expanded="true" />
+            <element signature="e#1849#1850#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sbm-excel/src/main/java/com/mrcoder/sbmexcel/service/ExcelService.java">
+    <entry file="file://$PROJECT_DIR$/sb-swagger2/src/main/java/com/mrcoder/sbswagger2/config/Swagger2Config.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-788">
-          <caret line="33" column="25" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="25" />
+        <state relative-caret-position="248">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="39" column="27" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="445">
+            <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

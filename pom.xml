@@ -37,6 +37,7 @@
         <module>sbmp-multidb-druid</module>
         <module>sbm-common-mapper</module>
         <module>sbm-excel</module>
+        <module>sb-swagger2</module>
     </modules>
 
 

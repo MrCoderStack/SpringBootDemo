@@ -17,6 +17,7 @@
         <module name="sb-mail" />
         <module name="sb-redis-annotations" />
         <module name="sb-redis-template" />
+        <module name="sb-swagger2" />
         <module name="sb-thymeleaf" />
         <module name="sbm-annotations" />
         <module name="sbm-common-mapper" />
@@ -48,6 +49,7 @@
       <module name="sb-redis" options="-parameters" />
       <module name="sb-redis-annotations" options="-parameters" />
       <module name="sb-redis-template" options="-parameters" />
+      <module name="sb-swagger2" options="-parameters" />
       <module name="sb-thymeleaf" options="-parameters" />
       <module name="sbm-annotations" options="-parameters" />
       <module name="sbm-common-mapper" options="-parameters" />
