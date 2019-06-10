@@ -56,6 +56,7 @@ sbmp  =》 spring boot mybatis plus
 ## 案例
 
 - [sb-helloword](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-helloword)：IDEA创建spring boot项目
+- [sb-exception-validator](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-exception-validator)：springboot 异常处理和数据验证
 - [sb-thymeleaf](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-thymeleaf)：springboot 结合thymeleaf模板使用
 - [sb-jdbc](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-jdbc)：jdbc访问mysql
 - [sb-jdbc-multidb](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-jdbc-multidb)：jdbc 多数据源案例
