@@ -38,6 +38,7 @@
         <module>sbm-common-mapper</module>
         <module>sbm-excel</module>
         <module>sb-swagger2</module>
+        <module>sb-exception-validator</module>
     </modules>
 
 
