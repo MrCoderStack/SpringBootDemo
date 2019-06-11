@@ -15,6 +15,7 @@ public enum ErrorCodeEnum {
 
     NOT_LOG(ResponseInfo.FAIL_CODE, "当前用户未登录");
 
+
     private Integer errCode;
 
     private String errMsg;
