@@ -68,6 +68,7 @@ sbmp  =》 spring boot mybatis plus
 - [sb-mail](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-mail)：整合mail
 - [sb-redis-annotations](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-redis-annotations)：注解操作redis
 - [sb-redis-template](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-redis-template)：redisTemplate操作redis
+- [sb-schedule](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-schedule)：定时任务的三种方式(注解/单线程/多线程)
 - [sb-swagger2](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-swagger2)：swagger2使用案例
 - [sbm-annotations](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sbm-annotations)：注解方式访问mysql
 - [sbm-common-mapper](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sbm-common-mapper)：通用mapper的使用
