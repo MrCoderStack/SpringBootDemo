@@ -16,14 +16,14 @@ public class StaticSchedule {
     //基于注解@Scheduled默认为单线程
     //开启多个任务时，任务的执行时机会受上一个任务执行时间的影响。
     //这边定时任务1延时10s来演示这个单线程的问题
-    @Scheduled(fixedRate = 5000)
+    //@Scheduled(fixedRate = 5000)
+    @Scheduled(cron = "0/5 * * * * ?", zone = "")
     private void configureTasks() {
         System.err.println("执行静态定时任务(单线程)1: " + LocalDateTime.now().toLocalTime());
 
         try {
             Thread.sleep(1000 * 10);
         } catch (InterruptedException ex) {
-
             Thread.currentThread().interrupt();
             System.err.println(ex);
         }
