@@ -26,6 +26,7 @@
         <module>sb-jdbc-multidb-atomikos</module>
         <module>sb-jsp</module>
         <module>sb-redis-annotations</module>
+        <module>sb-redis-pubsub</module>
         <module>sb-redis-template</module>
         <module>sb-schedule</module>
         <module>sb-mail</module>
