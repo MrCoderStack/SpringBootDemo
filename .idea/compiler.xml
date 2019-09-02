@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="sb-exception-validator" />
         <module name="sb-helloword" />
         <module name="sb-jdbc" />
         <module name="sb-jdbc-multidb" />
@@ -16,7 +17,10 @@
         <module name="sb-jsp" />
         <module name="sb-mail" />
         <module name="sb-redis-annotations" />
+        <module name="sb-redis-producer-consumer" />
+        <module name="sb-redis-pubsub" />
         <module name="sb-redis-template" />
+        <module name="sb-schedule" />
         <module name="sb-swagger2" />
         <module name="sb-thymeleaf" />
         <module name="sbm-annotations" />
@@ -37,6 +41,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="sb-exception-validator" options="-parameters" />
       <module name="sb-helloword" options="-parameters" />
       <module name="sb-jdbc" options="-parameters" />
       <module name="sb-jdbc-multidb" options="-parameters" />
@@ -48,7 +53,10 @@
       <module name="sb-mail" options="-parameters" />
       <module name="sb-redis" options="-parameters" />
       <module name="sb-redis-annotations" options="-parameters" />
+      <module name="sb-redis-producer-consumer" options="-parameters" />
+      <module name="sb-redis-pubsub" options="-parameters" />
       <module name="sb-redis-template" options="-parameters" />
+      <module name="sb-schedule" options="-parameters" />
       <module name="sb-swagger2" options="-parameters" />
       <module name="sb-thymeleaf" options="-parameters" />
       <module name="sbm-annotations" options="-parameters" />

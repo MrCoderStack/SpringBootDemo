@@ -67,6 +67,7 @@ sbmp  =》 spring boot mybatis plus
 - [sb-jsp](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-jsp)：整合jsp
 - [sb-mail](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-mail)：整合mail
 - [sb-redis-annotations](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-redis-annotations)：注解操作redis
+- [sb-redis-producer-consumer](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-redis-producer-consumer)：redis实现生产者消费者
 - [sb-redis-pubsub](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-redis-pubsub)：redis实现发布订阅
 - [sb-redis-template](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-redis-template)：redisTemplate操作redis
 - [sb-schedule](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-schedule)：定时任务的三种方式(注解/单线程/多线程)

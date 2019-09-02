@@ -26,6 +26,9 @@
         <option value="$PROJECT_DIR$/sbm-common-mapper/pom.xml" />
         <option value="$PROJECT_DIR$/sbm-excel/pom.xml" />
         <option value="$PROJECT_DIR$/sb-swagger2/pom.xml" />
+        <option value="$PROJECT_DIR$/sb-exception-validator/pom.xml" />
+        <option value="$PROJECT_DIR$/sb-redis-pubsub/pom.xml" />
+        <option value="$PROJECT_DIR$/sb-redis-producer-consumer/pom.xml" />
       </list>
     </option>
   </component>
