@@ -26,6 +26,7 @@
         <module name="sbm-annotations" />
         <module name="sbm-common-mapper" />
         <module name="sbm-excel" />
+        <module name="sbm-flyway" />
         <module name="sbm-generator" />
         <module name="sbm-multidb-annotations" />
         <module name="sbm-multidb-xml" />
@@ -62,6 +63,7 @@
       <module name="sbm-annotations" options="-parameters" />
       <module name="sbm-common-mapper" options="-parameters" />
       <module name="sbm-excel" options="-parameters" />
+      <module name="sbm-flyway" options="-parameters" />
       <module name="sbm-generator" options="-parameters" />
       <module name="sbm-multidb-annotation" options="-parameters" />
       <module name="sbm-multidb-annotations" options="-parameters" />

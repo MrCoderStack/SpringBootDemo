@@ -17,34 +17,34 @@
 
     <packaging>pom</packaging>
     <modules>
+        <module>sb-exception-validator</module>
         <module>sb-helloword</module>
-        <module>sb-jpa</module>
-        <module>sb-jpa-multidb</module>
-        <module>sb-jpa-multidb-atomikos</module>
         <module>sb-jdbc</module>
         <module>sb-jdbc-multidb</module>
         <module>sb-jdbc-multidb-atomikos</module>
+        <module>sb-jpa</module>
+        <module>sb-jpa-multidb</module>
+        <module>sb-jpa-multidb-atomikos</module>
         <module>sb-jsp</module>
+        <module>sb-mail</module>
         <module>sb-redis-annotations</module>
         <module>sb-redis-producer-consumer</module>
         <module>sb-redis-pubsub</module>
         <module>sb-redis-template</module>
         <module>sb-schedule</module>
-        <module>sb-mail</module>
+        <module>sb-swagger2</module>
         <module>sb-thymeleaf</module>
-        <module>sbm-generator</module>
         <module>sbm-annotations</module>
-        <module>sbm-multidb-annotations</module>
-        <module>sbm-multidb-xml</module>
-        <module>sbmp-multidb</module>
-        <module>sbmp-multidb-druid</module>
         <module>sbm-common-mapper</module>
         <module>sbm-excel</module>
-        <module>sb-swagger2</module>
-        <module>sb-exception-validator</module>
+        <module>sbm-flyway</module>
+        <module>sbm-generator</module>
+        <module>sbm-multidb-annotations</module>
+        <module>sbm-multidb-xml</module>
+        <module>sbm-multidb-xml-druid-atomikos</module>
+        <module>sbmp-multidb</module>
+        <module>sbmp-multidb-druid</module>
     </modules>
-
-
 
 
 </project>

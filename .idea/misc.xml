@@ -29,6 +29,7 @@
         <option value="$PROJECT_DIR$/sb-exception-validator/pom.xml" />
         <option value="$PROJECT_DIR$/sb-redis-pubsub/pom.xml" />
         <option value="$PROJECT_DIR$/sb-redis-producer-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/sbm-flyway/pom.xml" />
       </list>
     </option>
   </component>
