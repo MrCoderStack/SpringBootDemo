@@ -54,10 +54,8 @@ sbmp  =》 spring boot mybatis plus
 
 
 ## 案例
-
-- [sb-helloword](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-helloword)：IDEA创建spring boot项目
 - [sb-exception-validator](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-exception-validator)：springboot 异常处理和数据验证
-- [sb-thymeleaf](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-thymeleaf)：springboot 结合thymeleaf模板使用
+- [sb-helloword](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-helloword)：IDEA创建spring boot项目
 - [sb-jdbc](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-jdbc)：jdbc访问mysql
 - [sb-jdbc-multidb](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-jdbc-multidb)：jdbc 多数据源案例
 - [sb-jdbc-multidb-atomikos](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-jdbc-multidb-atomikos)：jdbc+atomikos 多数据源分布式事务处理案例
@@ -72,12 +70,15 @@ sbmp  =》 spring boot mybatis plus
 - [sb-redis-template](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-redis-template)：redisTemplate操作redis
 - [sb-schedule](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-schedule)：定时任务的三种方式(注解/单线程/多线程)
 - [sb-swagger2](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-swagger2)：swagger2使用案例
+- [sb-thymeleaf](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-thymeleaf)：springboot 结合thymeleaf模板使用
 - [sbm-annotations](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sbm-annotations)：注解方式访问mysql
 - [sbm-common-mapper](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sbm-common-mapper)：通用mapper的使用
 - [sbm-excel](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sbm-excel)：excel导入(反射实体);excel载入模版导出;
+- [sbm-flyway](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sbm-flyway)：集成flyway数据库版本管理工具
 - [sbm-generator](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sbm-generator)：mapper.xml方式操作数据，mybatis-generator-maven-plugin自动生成代码，集成pagehelper-spring-boot-starter分页控件来使用，附带非分页方式
 - [sbm-multidb-annotations](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sbm-multidb-annotations)：mybatis多数据源案例，使用注解方式操作mysql
 - [sbm-multidb-xml](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sbm-multidb-xml)：mybatis多数据源案例，使用mapper.xml方式操作mysql
+- [sbm-multidb-xml-druid-atomikos](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sbm-multidb-xml-druid-atomikos)：mybatis多数据源案例，集成druid监控，分布式事务管理atomikos
 - [sbmp-multidb](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sbmp-multidb)：mapper.xml方式访问mysql，mybatis-plus-generator自动生成代码，dynamic-datasource-spring-boot-starter多库切换
 - [sbmp-multidb-druid](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sbmp-multidb-druid)：注解方式访问mysql，spring-boot-starter-aop，druid多库切换
 
