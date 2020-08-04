@@ -81,6 +81,8 @@ sbmp  =》 spring boot mybatis plus
 - [sbm-multidb-xml-druid-atomikos](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sbm-multidb-xml-druid-atomikos)：mybatis多数据源案例，集成druid监控，分布式事务管理atomikos
 - [sbmp-multidb](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sbmp-multidb)：mapper.xml方式访问mysql，mybatis-plus-generator自动生成代码，dynamic-datasource-spring-boot-starter多库切换
 - [sbmp-multidb-druid](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sbmp-multidb-druid)：注解方式访问mysql，spring-boot-starter-aop，druid多库切换
+- [sb-alibaba-nacos](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-alibaba-nacos)：nacos注册中心，配置中心的使用
+- [sb-feign](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-feign)：feign跨服务调用的演示
 
 
 

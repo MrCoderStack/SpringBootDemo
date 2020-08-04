@@ -6,7 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="demo" />
+        <module name="sb-alibaba-nacos" />
         <module name="sb-exception-validator" />
+        <module name="sb-feign" />
         <module name="sb-helloword" />
         <module name="sb-jdbc" />
         <module name="sb-jdbc-multidb" />
@@ -23,6 +26,7 @@
         <module name="sb-schedule" />
         <module name="sb-swagger2" />
         <module name="sb-thymeleaf" />
+        <module name="sb-transaction" />
         <module name="sbm-annotations" />
         <module name="sbm-common-mapper" />
         <module name="sbm-excel" />
@@ -35,42 +39,39 @@
         <module name="sbmp-multidb-druid" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="sb-redis" target="1.8" />
-      <module name="sbm-multidb-annotation" target="1.8" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8" />
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="sb-exception-validator" options="-parameters" />
-      <module name="sb-helloword" options="-parameters" />
-      <module name="sb-jdbc" options="-parameters" />
-      <module name="sb-jdbc-multidb" options="-parameters" />
-      <module name="sb-jdbc-multidb-atomikos" options="-parameters" />
-      <module name="sb-jpa" options="-parameters" />
-      <module name="sb-jpa-multidb" options="-parameters" />
-      <module name="sb-jpa-multidb-atomikos" options="-parameters" />
-      <module name="sb-jsp" options="-parameters" />
-      <module name="sb-mail" options="-parameters" />
-      <module name="sb-redis" options="-parameters" />
-      <module name="sb-redis-annotations" options="-parameters" />
-      <module name="sb-redis-producer-consumer" options="-parameters" />
-      <module name="sb-redis-pubsub" options="-parameters" />
-      <module name="sb-redis-template" options="-parameters" />
-      <module name="sb-schedule" options="-parameters" />
-      <module name="sb-swagger2" options="-parameters" />
-      <module name="sb-thymeleaf" options="-parameters" />
-      <module name="sbm-annotations" options="-parameters" />
-      <module name="sbm-common-mapper" options="-parameters" />
-      <module name="sbm-excel" options="-parameters" />
-      <module name="sbm-flyway" options="-parameters" />
-      <module name="sbm-generator" options="-parameters" />
-      <module name="sbm-multidb-annotation" options="-parameters" />
-      <module name="sbm-multidb-annotations" options="-parameters" />
-      <module name="sbm-multidb-xml" options="-parameters" />
+      <module name="sb-alibaba-nacos" options="" />
+      <module name="sb-exception-validator" options="" />
+      <module name="sb-helloword" options="" />
+      <module name="sb-jdbc" options="" />
+      <module name="sb-jdbc-multidb" options="" />
+      <module name="sb-jdbc-multidb-atomikos" options="" />
+      <module name="sb-jpa" options="" />
+      <module name="sb-jpa-multidb" options="" />
+      <module name="sb-jpa-multidb-atomikos" options="" />
+      <module name="sb-jsp" options="" />
+      <module name="sb-mail" options="" />
+      <module name="sb-redis-annotations" options="" />
+      <module name="sb-redis-producer-consumer" options="" />
+      <module name="sb-redis-pubsub" options="" />
+      <module name="sb-redis-template" options="" />
+      <module name="sb-schedule" options="" />
+      <module name="sb-swagger2" options="" />
+      <module name="sb-thymeleaf" options="" />
+      <module name="sb-transaction" options="" />
+      <module name="sbm-annotations" options="" />
+      <module name="sbm-common-mapper" options="" />
+      <module name="sbm-excel" options="" />
+      <module name="sbm-flyway" options="" />
+      <module name="sbm-generator" options="" />
+      <module name="sbm-multidb-annotations" options="" />
+      <module name="sbm-multidb-xml" options="" />
       <module name="sbm-multidb-xml-druid-atomikos" options="-parameters" />
-      <module name="sbmp-multidb" options="-parameters" />
-      <module name="sbmp-multidb-druid" options="-parameters" />
+      <module name="sbmp-multidb" options="" />
+      <module name="sbmp-multidb-druid" options="" />
     </option>
   </component>
 </project>

@@ -30,6 +30,9 @@
         <option value="$PROJECT_DIR$/sb-redis-pubsub/pom.xml" />
         <option value="$PROJECT_DIR$/sb-redis-producer-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/sbm-flyway/pom.xml" />
+        <option value="$PROJECT_DIR$/sb-transaction/pom.xml" />
+        <option value="$PROJECT_DIR$/sb-alibaba-nacos/pom.xml" />
+        <option value="$PROJECT_DIR$/sb-feign/pom.xml" />
       </list>
     </option>
   </component>
