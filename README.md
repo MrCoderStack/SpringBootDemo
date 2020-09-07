@@ -83,6 +83,7 @@ sbmp  =》 spring boot mybatis plus
 - [sbmp-multidb-druid](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sbmp-multidb-druid)：注解方式访问mysql，spring-boot-starter-aop，druid多库切换
 - [sb-alibaba-nacos](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-alibaba-nacos)：nacos注册中心，配置中心的使用
 - [sb-feign](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-feign)：feign跨服务调用的演示
+- [sb-xssfilter](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-xssfilter)：xssfilter的演示
 
 
 
