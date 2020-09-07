@@ -42,6 +42,7 @@
         <module>sbm-multidb-xml-druid-atomikos</module>
         <module>sbmp-multidb</module>
         <module>sbmp-multidb-druid</module>
+        <module>sb-xssfilter</module>
     </modules>
 
     <!-- 依赖版本控制 -->
