@@ -3,9 +3,10 @@ package com.mrcoder.sbxssfilter.model;
 import lombok.Getter;
 import lombok.Setter;
 
-@Setter
 @Getter
-public class Demo {
+@Setter
+public class People {
+
     private String name;
     private String info;
 }
