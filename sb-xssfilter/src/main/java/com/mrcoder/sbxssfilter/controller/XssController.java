@@ -1,25 +1,27 @@
 package com.mrcoder.sbxssfilter.controller;
 
 
-import com.mrcoder.sbxssfilter.model.Demo;
+import com.mrcoder.sbxssfilter.model.People;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+@Slf4j
 @RestController
 public class XssController {
 
-    //正常转义
+    //键值对
     @PostMapping("xssFilter")
     public String xssFilter(String name, String info) {
+        log.error(name + "---" + info);
         return name + "---" + info;
     }
-
+    //实体
     @PostMapping("modelXssFilter")
-    public Demo modelXssFilter(@RequestBody Demo demo) {
-        System.out.println(demo.getName());
-        System.out.println(demo.getInfo());
-        return demo;
+    public People modelXssFilter(@RequestBody People people) {
+        log.error(people.getName() + "---" + people.getInfo());
+        return people;
     }
 
     //不转义

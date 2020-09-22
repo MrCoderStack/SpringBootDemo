@@ -7,11 +7,10 @@
         <artifactId>SpringBootDemo</artifactId>
         <version>1.0.0</version>
     </parent>
-
     <groupId>com.mrcoder</groupId>
-    <artifactId>sb-xssfilter</artifactId>
+    <artifactId>sb-xssaop</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>sb-xssfilter</name>
+    <name>sb-xssaop</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -20,11 +19,14 @@
     </properties>
 
     <dependencies>
-
-        <!--Aop依赖 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
         </dependency>
 
         <!--HuTool工具包 -->

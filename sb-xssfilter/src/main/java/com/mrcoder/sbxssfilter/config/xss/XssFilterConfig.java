@@ -59,13 +59,14 @@ public class XssFilterConfig {
         //解析器
         ObjectMapper objectMapper = builder.createXmlMapper(false).build();
         //注册xss解析器
-        SimpleModule xssModule = new SimpleModule("XssStringJsonSerializer");
+        SimpleModule xssModule = new SimpleModule("XssStringJsonDeserializer");
 
         //入参和出参过滤选一个就好了，没必要两个都加
-        //注册出参转义
-        xssModule.addSerializer(new XssStringJsonSerializer());
+        //这里为了和XssHttpServletRequestWrapper统一,建议对入参进行处理
         //注册入参转义
-        //xssModule.addDeserializer(String.class, new XssStringJsonDeserializer());
+        xssModule.addDeserializer(String.class, new XssStringJsonDeserializer());
+        //注册出参转义
+        //xssModule.addSerializer(new XssStringJsonSerializer());
         objectMapper.registerModule(xssModule);
         //返回
         return objectMapper;

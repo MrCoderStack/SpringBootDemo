@@ -43,6 +43,7 @@
         <module>sbmp-multidb</module>
         <module>sbmp-multidb-druid</module>
         <module>sb-xssfilter</module>
+        <module>sb-xssaop</module>
     </modules>
 
     <!-- 依赖版本控制 -->
