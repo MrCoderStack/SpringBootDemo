@@ -21,7 +21,7 @@ import lombok.Setter;
 @JsonInclude(Include.NON_NULL)
 public class ResponseInfo implements Serializable {
 
-    private static final long serialVersionUID = -2210269174549937804L;
+    private static final long serialVersionUID = -2792684102958898231L;
 
     // 成功状态码
     public static final Integer SUCCESS_C0DE = Integer.valueOf(0);
@@ -69,7 +69,7 @@ public class ResponseInfo implements Serializable {
 
 
     public static ResponseInfo fail(Integer errCode) {
-        if (errCode == SUCCESS_C0DE) {
+        if (SUCCESS_C0DE.equals(errCode)) {
             return new ResponseInfo(FAIL_CODE);
         }
         return new ResponseInfo(errCode);

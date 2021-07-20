@@ -12,6 +12,7 @@
     <properties>
         <java.version>1.8</java.version>
         <spring-boot.version>2.1.3.RELEASE</spring-boot.version>
+        <maven-compiler-plugin.version>3.1</maven-compiler-plugin.version>
     </properties>
 
     <modules>
@@ -37,6 +38,7 @@
         <module>sbm-excel</module>
         <module>sbm-flyway</module>
         <module>sbm-generator</module>
+        <module>sbm-interceptor</module>
         <module>sbm-multidb-annotations</module>
         <module>sbm-multidb-xml</module>
         <module>sbm-multidb-xml-druid-atomikos</module>
@@ -44,6 +46,7 @@
         <module>sbmp-multidb-druid</module>
         <module>sb-xssfilter</module>
         <module>sb-xssaop</module>
+        <module>sb-no-repeat-submit</module>
     </modules>
 
     <!-- 依赖版本控制 -->
@@ -58,37 +61,4 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
-    <!-- 公共依赖 -->
-    <dependencies>
-
-        <!-- web启动器 -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
-        <!-- test -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
-        </dependency>
-    </dependencies>
-
-    <!-- 插件管理 -->
-    <build>
-        <pluginManagement>
-            <plugins>
-                <plugin>
-                    <groupId>org.springframework.boot</groupId>
-                    <artifactId>spring-boot-maven-plugin</artifactId>
-                </plugin>
-            </plugins>
-        </pluginManagement>
-    </build>
 </project>

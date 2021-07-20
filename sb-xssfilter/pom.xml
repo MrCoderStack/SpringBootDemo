@@ -15,18 +15,20 @@
     <description>Demo project for Spring Boot</description>
 
     <properties>
-        <java.version>1.8</java.version>
         <hutool.version>5.2.3</hutool.version>
     </properties>
 
     <dependencies>
-
-        <!--Aop依赖 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
         <!--HuTool工具包 -->
         <dependency>
             <groupId>cn.hutool</groupId>
