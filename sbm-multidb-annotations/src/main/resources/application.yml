@@ -3,11 +3,11 @@ spring:
     master:
       username: root
       password: 123456
-      jdbc-url: jdbc:mysql://192.168.145.131:3306/test
+      jdbc-url: jdbc:mysql://127.0.0.1:3306/test
       driver-class-name: com.mysql.cj.jdbc.Driver
     slave:
       username: root
       password: 123456
-      jdbc-url: jdbc:mysql://192.168.145.131:3306/test2
+      jdbc-url: jdbc:mysql://127.0.0.1:3306/test2
       driver-class-name: com.mysql.cj.jdbc.Driver
 

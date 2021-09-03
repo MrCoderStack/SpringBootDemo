@@ -13,6 +13,22 @@
         <java.version>1.8</java.version>
         <spring-boot.version>2.1.3.RELEASE</spring-boot.version>
         <maven-compiler-plugin.version>3.1</maven-compiler-plugin.version>
+        <redisson.version>3.11.1</redisson.version>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+        <hutool.version>5.4.2</hutool.version>
+        <mybatis-plus.version>3.3.1</mybatis-plus.version>
+        <mysql.version>8.0.18</mysql.version>
+        <druid.version>1.1.16</druid.version>
+        <redisson.version>3.11.1</redisson.version>
+        <springfox-swagger2>2.9.2</springfox-swagger2>
+        <ali-oss.version>3.10.2</ali-oss.version>
+        <ali-mq-tcp.version>1.8.7.4.Final</ali-mq-tcp.version>
+        <ali-mq-http.version>1.0.3</ali-mq-http.version>
+        <spring-cloud.version>Greenwich.SR2</spring-cloud.version>
     </properties>
 
     <modules>
@@ -47,11 +63,14 @@
         <module>sb-xssfilter</module>
         <module>sb-xssaop</module>
         <module>sb-no-repeat-submit</module>
+        <module>sb-distributed-lock-annotations</module>
     </modules>
 
     <!-- 依赖版本控制 -->
     <dependencyManagement>
         <dependencies>
+
+            <!--SpringBoot依赖-->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
@@ -59,6 +78,105 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
+            <!--MybatisPlus依赖 -->
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>${mybatis-plus.version}</version>
+            </dependency>
+
+            <!-- Redisson分布式框架依赖 -->
+            <dependency>
+                <groupId>org.redisson</groupId>
+                <artifactId>redisson</artifactId>
+                <version>${redisson.version}</version>
+            </dependency>
+
+            <!-- 数据库连接池 -->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid</artifactId>
+                <version>${druid.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.aliyun.oss</groupId>
+                <artifactId>aliyun-sdk-oss</artifactId>
+                <version>${ali-oss.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.aliyun.openservices</groupId>
+                <artifactId>ons-client</artifactId>
+                <version>${ali-mq-tcp.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.aliyun.mq</groupId>
+                <artifactId>mq-http-sdk</artifactId>
+                <version>${ali-mq-http.version}</version>
+                <classifier>jar-with-dependencies</classifier>
+            </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <!--公共依赖-->
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+        <!--HuTool工具包 -->
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>${hutool.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.51</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>20.0</version>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>attach-sources</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 </project>

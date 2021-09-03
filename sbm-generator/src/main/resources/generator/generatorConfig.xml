@@ -16,7 +16,7 @@
         </commentGenerator>
 
         <!-- 数据库的相关配置 -->
-        <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver" connectionURL="jdbc:mysql://192.168.145.131:3306/test"
+        <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver" connectionURL="jdbc:mysql://127.0.0.1:3306/test"
                         userId="root" password="123456"/>
 
         <!-- 非必需，类型处理器，在数据库类型和java类型之间的转换控制-->

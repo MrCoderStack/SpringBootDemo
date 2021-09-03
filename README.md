@@ -64,6 +64,7 @@ sbmp  =》 spring boot mybatis plus
 - [sb-jpa-multidb-atomikos](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-jpa-multidb-atomikos)：jpa+atomikos 多数据源分布式事务处理案例
 - [sb-jsp](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-jsp)：整合jsp
 - [sb-mail](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-mail)：整合mail
+- [sb-transaction](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-transaction)：事务
 - [sb-redis-annotations](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-redis-annotations)：注解操作redis
 - [sb-redis-producer-consumer](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-redis-producer-consumer)：redis实现生产者消费者
 - [sb-redis-pubsub](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-redis-pubsub)：redis实现发布订阅
@@ -71,6 +72,12 @@ sbmp  =》 spring boot mybatis plus
 - [sb-schedule](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-schedule)：定时任务的三种方式(注解/单线程/多线程)
 - [sb-swagger2](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-swagger2)：swagger2使用案例
 - [sb-thymeleaf](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-thymeleaf)：springboot 结合thymeleaf模板使用
+- [sb-alibaba-nacos](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-alibaba-nacos)：nacos注册中心，配置中心的使用
+- [sb-feign](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-feign)：feign跨服务调用的演示
+- [sb-xssfilter](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-xssfilter)：xssfilter的演示
+- [sb-xssaop](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-xssaop)：xssaop的演示
+- [sb-no-repeat-submit](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-no-repeat-submit)：注解防重复提交的演示
+- [sb-spel-annotations](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-spel-annotations)：spel结合注解获取动态参数的演示
 - [sbm-annotations](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sbm-annotations)：注解方式访问mysql
 - [sbm-common-mapper](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sbm-common-mapper)：通用mapper的使用
 - [sbm-excel](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sbm-excel)：excel导入(反射实体);excel载入模版导出;
@@ -79,11 +86,9 @@ sbmp  =》 spring boot mybatis plus
 - [sbm-multidb-annotations](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sbm-multidb-annotations)：mybatis多数据源案例，使用注解方式操作mysql
 - [sbm-multidb-xml](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sbm-multidb-xml)：mybatis多数据源案例，使用mapper.xml方式操作mysql
 - [sbm-multidb-xml-druid-atomikos](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sbm-multidb-xml-druid-atomikos)：mybatis多数据源案例，集成druid监控，分布式事务管理atomikos
+- [sbm-interceptor](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sbm-interceptor)：mybatis拦截器字段数据脱敏
 - [sbmp-multidb](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sbmp-multidb)：mapper.xml方式访问mysql，mybatis-plus-generator自动生成代码，dynamic-datasource-spring-boot-starter多库切换
 - [sbmp-multidb-druid](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sbmp-multidb-druid)：注解方式访问mysql，spring-boot-starter-aop，druid多库切换
-- [sb-alibaba-nacos](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-alibaba-nacos)：nacos注册中心，配置中心的使用
-- [sb-feign](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-feign)：feign跨服务调用的演示
-- [sb-xssfilter](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-xssfilter)：xssfilter的演示
 
 
 
