@@ -78,6 +78,7 @@ sbmp  =》 spring boot mybatis plus
 - [sb-xssaop](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-xssaop)：xssaop的演示
 - [sb-no-repeat-submit](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-no-repeat-submit)：注解防重复提交的演示
 - [sb-spel-annotations](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-spel-annotations)：spel结合注解获取动态参数的演示
+- [sb-distributed-lock-annotations](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-distributed-lock-annotations)：spel结合redisson实现分布式锁注解
 - [sbm-annotations](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sbm-annotations)：注解方式访问mysql
 - [sbm-common-mapper](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sbm-common-mapper)：通用mapper的使用
 - [sbm-excel](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sbm-excel)：excel导入(反射实体);excel载入模版导出;
