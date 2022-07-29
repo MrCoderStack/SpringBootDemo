@@ -20,7 +20,7 @@ import java.io.Serializable;
 @JsonInclude(Include.NON_NULL)
 public class R implements Serializable {
 
-    private static final long serialVersionUID = -2210269174549937804L;
+    private static final long serialVersionUID = -8403031499088786413L;
 
     // 成功状态码
     public static final Integer SUCCESS_C0DE = Integer.valueOf(0);

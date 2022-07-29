@@ -17,7 +17,7 @@ import java.io.Serializable;
 @JsonInclude(Include.NON_NULL)
 public class User implements Serializable {
 
-    private static final long serialVersionUID = -7229987827039544092L;
+    private static final long serialVersionUID = -1941635009126453180L;
 
     private String name;
     private Long id;
