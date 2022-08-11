@@ -19,7 +19,7 @@
     <description>Demo project for Spring Boot</description>
 
     <properties>
-        <mysql.version>8.0.12</mysql.version>
+        <mysql.version>8.0.28</mysql.version>
         <mybatisplus.version>3.0.7.1</mybatisplus.version>
         <dynamic-datasource.version>2.5.0</dynamic-datasource.version>
     </properties>
