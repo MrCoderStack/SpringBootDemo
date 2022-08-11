@@ -64,6 +64,7 @@
         <module>sb-xssaop</module>
         <module>sb-no-repeat-submit</module>
         <module>sb-distributed-lock-annotations</module>
+        <module>sb-alibaba-rocketmq</module>
     </modules>
 
     <!-- 依赖版本控制 -->

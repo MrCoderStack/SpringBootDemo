@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.mrcoder</groupId>
+        <artifactId>SpringBootDemo</artifactId>
+        <version>1.0.0</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <groupId>com.mrcoder</groupId>
+    <artifactId>sb-alibaba-rocketmq</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>sb-alibaba-rocketmq</name>
+    <description>sb-alibaba-rocketmq</description>
+
+    <properties>
+        <ali-mq-tcp.version>1.8.7.4.Final</ali-mq-tcp.version>
+        <ali-mq-http.version>1.0.3</ali-mq-http.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.aliyun.openservices</groupId>
+            <artifactId>ons-client</artifactId>
+            <version>${ali-mq-tcp.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.aliyun.mq</groupId>
+            <artifactId>mq-http-sdk</artifactId>
+            <version>${ali-mq-http.version}</version>
+            <classifier>jar-with-dependencies</classifier>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <!-- 这个版本号无法从父类插件管理继承，先手动指定 -->
+                <version>${spring-boot.version}</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven-compiler-plugin.version}</version>
+                <configuration>
+                    <source>${maven.compiler.source}</source>
+                    <target>${maven.compiler.target}</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

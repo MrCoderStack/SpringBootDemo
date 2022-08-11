@@ -73,6 +73,7 @@ sbmp  =》 spring boot mybatis plus
 - [sb-swagger2](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-swagger2)：swagger2使用案例
 - [sb-thymeleaf](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-thymeleaf)：springboot 结合thymeleaf模板使用
 - [sb-alibaba-nacos](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-alibaba-nacos)：nacos注册中心，配置中心的使用
+- [sb-alibaba-rocketmq](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-alibaba-rocketmq)：阿里RocketMQ，tcp & http sdk接入演示
 - [sb-feign](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-feign)：feign跨服务调用的演示
 - [sb-xssfilter](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-xssfilter)：xssfilter的演示
 - [sb-xssaop](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sb-xssaop)：xssaop的演示
@@ -90,7 +91,6 @@ sbmp  =》 spring boot mybatis plus
 - [sbm-interceptor](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sbm-interceptor)：mybatis拦截器字段数据脱敏
 - [sbmp-multidb](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sbmp-multidb)：mapper.xml方式访问mysql，mybatis-plus-generator自动生成代码，dynamic-datasource-spring-boot-starter多库切换
 - [sbmp-multidb-druid](https://github.com/MrCoderStack/SpringBootDemo/tree/master/sbmp-multidb-druid)：注解方式访问mysql，spring-boot-starter-aop，druid多库切换
-
 
 
 
