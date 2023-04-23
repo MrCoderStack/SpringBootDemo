@@ -3,7 +3,7 @@ package com.mrcoder.sbredistemplate.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Component;
-
+import org.springframework.transaction.annotation.Transactional;
 import java.util.Collection;
 import java.util.Date;
 import java.util.Set;
@@ -12,6 +12,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 @Component
+@Transactional
 public class RedisService {
     @Autowired
     private RedisTemplate<String, String> redisTemplate;
